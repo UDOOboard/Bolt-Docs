@@ -1,15 +1,15 @@
-# UDOO X86
-**UDOO X86** is the New PC: the most powerful maker board ever and an Arduino&trade; 101-compatible platform, all embedded on the same board.
+# UDOO Bolt
+**UDOO Bolt** is the New PC: the most powerful maker board ever and an Arduino&trade; 101-compatible platform, all embedded on the same board.
 
-On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
+On UDOO Bolt you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
 
-UDOO X86 embeds two processors made by Intel&reg;:
+UDOO Bolt embeds two processors made by Intel&reg;:
 * a Quad Core 64-bit new-generation x86 Braswell 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP.)
 * the Intel&reg; Curie&trade; module, the same of Arduino&trade; 101, designed for wearables
 
 While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
 
-Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf) to have more complete explanation of the UDOO X86 hardware.
+Download the [**User Manual**](http://download.udoo.org/files/UDOO_Bolt/Doc/UDOO_Bolt_MANUAL.pdf) to have more complete explanation of the UDOO Bolt hardware.
 
 <hr/>
 
@@ -18,11 +18,11 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_
 * Never provide more than 5V in input to the GPIOs of the Arduino 101(Intel&reg; Curie&trade;), and never provide more than 1.8V in input to the GPIOs of the Braswell processor.
 * Never keep the board in touch with metal objects or surfaces while it is powered up
 * Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%, at least 3A).
-* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO X86 board with the risk of damage.
+* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO Bolt board with the risk of damage.
 
 
 ## Lineup
-UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_versions).
+UDOO Bolt retail line up consists of models.
 
 <img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
@@ -74,7 +74,7 @@ UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_vers
 &#42;Available on Pin Header
 &#42;&#42;Not compatible with NVMe modules
 
-Visit the [official accessories](!Hardware_&_Accessories/Official_Accessories) sections.
+Visit the official accessories sections.
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
