@@ -11,10 +11,11 @@ This repository contains the source code for the documentation hosted at [www.ud
 On PHP7+ install XML and mbstring modules:
 
     sudo apt-get install php7.0-xml php7.0-mbstring
+    composer install
 
 Then build the documentation with
 
-    ./daux.phar && ( cd static; cp -rp ../img .)
+    composer generate
 
 To serve the documentation from a development webserver, run
 
