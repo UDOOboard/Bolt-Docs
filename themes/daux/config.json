@@ -1,0 +1,23 @@
+{
+    "favicon": "http://www.udoo.org/wp-content/uploads/2014/12/logo_udoo_32.ico",
+    "fonts": ["https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin"],
+    "js": [],
+    "variants": {
+        "blue": {
+            "favicon": "<theme_url>img/favicon-blue.png",
+            "css": ["<theme_url>css/theme-blue.min.css"]
+        },
+        "green": {
+            "favicon": "<theme_url>img/favicon-green.png",
+            "css": ["<theme_url>css/theme-green.min.css"]
+        },
+        "navy": {
+            "favicon": "<theme_url>img/favicon-navy.png",
+            "css": ["<theme_url>css/theme-navy.min.css", "<theme_url>css/udoo.css"]
+        },
+        "red": {
+            "favicon": "<theme_url>img/favicon-red.png",
+            "css": ["<theme_url>css/theme-red.min.css"]
+        }
+    }
+}
