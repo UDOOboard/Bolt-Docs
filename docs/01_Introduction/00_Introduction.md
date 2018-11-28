@@ -1,13 +1,13 @@
 # UDOO Bolt
-**UDOO Bolt** is the New PC: the most powerful maker board ever and an Arduino&trade; 101-compatible platform, all embedded on the same board.
+**UDOO Bolt** is a quantum leap compared to current maker boards: a portable, breakthrough supercomputer that goes up to *3.6 GHz* thanks to the brand-new **AMD Ryzen&trade; Embedded V1000 SoC**, a top-notch, multicore CPU with a mobile GPU on par with GTX 950M and an integrated **Arduino&trade; Leonardo-compatible** platform, all wrapped into one.
 
-On UDOO Bolt you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
+On **UDOO Bolt** you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; Leonardo world, including all the sketches, libraries and the official Arduino&trade; IDE.
 
-UDOO Bolt embeds two processors made by Intel&reg;:
-* a Quad Core 64-bit new-generation x86 Braswell 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP.)
-* the Intel&reg; Curie&trade; module, the same of Arduino&trade; 101, designed for wearables
+UDOO Bolt embeds two processors:
+* the new **AMD Ryzen&trade; Embedded V1000**, 14nm, up to a *4-cores/8-threads* CPU, with a thermal design power of just *12-25W*, designed for really fast Ultrathin Notebooks. It also embeds a really fast *AMD Radeon&trade; Vega* GPU, the most incredible GPUs you’ve ever seen on a maker platform.
+* the Atmel&reg; ATmega32U4 module, the same of Arduino&trade; Leonardo,
 
-While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
+While the AMD Ryzen&trade; Embedded V1000 processor can run all the Windows 10 and Linux 64bit Distros you want to use as desktop PC, the Atmel&reg; ATmega32U4 allows easy access to a Arduino&trade; Leonardo environment.
 
 Download the [**User Manual**](http://download.udoo.org/files/UDOO_Bolt/Doc/UDOO_Bolt_MANUAL.pdf) to have more complete explanation of the UDOO Bolt hardware.
 
@@ -15,14 +15,19 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_Bolt/Doc/UDOO
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
-* Never provide more than 5V in input to the GPIOs of the Arduino 101(Intel&reg; Curie&trade;), and never provide more than 1.8V in input to the GPIOs of the Braswell processor.
-* Never keep the board in touch with metal objects or surfaces while it is powered up
-* Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%, at least 3A).
+* CE certification retained using only the UDOO Bolt Power Supply 19V 3A.
+* This product should be operated in a well-ventilated environment and, if used inside a case, the case should not be covered.
+* This product should be elevated on a stable, flat, electrically non-conductive surface whilst in operation, and clear from any object that can induce a short-circuit.
+* Do not expose it to water, moisture or heat from any source; UDOO BOLT is designed for reliable operation at normal ambient room temperatures.
+* Avoid handling the warm and moving parts (like the fan) and generally the printed circuit board while it is powered.
+* Only handle by the edges to minimise the risk of electrostatic discharge damage.
+* Take care whilst handling to avoid mechanical or electrical damage to the printed circuit board and connectors. Also use a grounded wrist strap or touch a safely grounded object before you handle components.
+* Never provide more than 5V in input to the GPIOs of the Arduino Leonardo(Atmel&reg; ATmega32U4), and never provide more than 3.3V in input to the GPIOs of the Embedded Controller.
 * Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO Bolt board with the risk of damage.
 
 
 ## Lineup
-UDOO Bolt retail line up consists of models.
+UDOO Bolt retail line up consists of two models.
 
 <img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
@@ -32,52 +37,62 @@ UDOO Bolt retail line up consists of models.
 <img src="../img/x86_ultra_top_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
 
 * Processor:
-  * CPU Intel&reg; Pentium N3710 up to 2.56 Ghz (ULTRA version)
-  * CPU Intel&reg; Celeron N3160 up to 2.24 Ghz (ADVANCED PLUS & ADVANCED versions)
-  * CPU Intel&reg; Atom X5-E8000 up to 2.00 Ghz (BASIC version)
+  * CPU AMD Ryzen&trade; Embedded V1605B SoC up to 3.6 GHz (V8 version)
+  * CPU AMD Ryzen&trade; Embedded V1202B SoC up to 3.2 GHz (V3 version)
 * GPU:
-  * Intel&reg; HD Graphics 405 up to 700 MHz 16 execution units (ULTRA version)
-  * Intel&reg; HD Graphics 400 up to 640 MHz 12 execution units (ADVANCED PLUS & ADVANCED versions)
-  * Intel&reg; HD Graphics up to 320 MHz 12 execution units (BASIC version)
+  * AMD Radeon™ Vega 8 Graphics - 8 GPU Compute Units (V8 version)
+  * AMD Radeon™ Vega 3 Graphics - 3 GPU Compute Units (V3 version)
 * RAM:
-  * 8 GB DDR3L Dual Channel (ULTRA version)
-  * 4 GB DDR3L Dual Channel (ADVANCED PLUS & ADVANCED versions)
-  * 2 GB DDR3L (BASIC version)
-* Intel&reg; Curie&trade; module (Quark SE core 32 MHz plus 32-bit ARC core 32 MHz) features Bluetooth LE, 6-axis accelerometer/gyro
+  * 2x Slot SO-DIMM Dual-channel 64-bit DDR4 2400 MT/s with ECC support up to 32GB
+* Atmel&reg; ATmega32U4 8-bit AVR RISC-based microcontroller.
 * Video interfaces:
-  * 1x HDMI 1.4 (CEC)
-  * 2x Mini DisplayPort ++ (mDP++)
+  * 2x HDMI 1.4/2.0a (CEC)
+  * 2x USB Type-C (DP alternate mode)
 * Storage:
-  * 32GB eMMC soldered on-board (Advanced Plus and Ultra only)
-  * 1x M.2 Key B 2260 slot for SATA SSD modules** / PCIe (2x) modules
-  * 1x SATA III 6Gb/s connector
-  * 1x MicroSD slot
+  * 1x 32GB eMMC 5.0 High Speed Drive
+  * 1x SSD SATA module's Slot M.2 Socket 2 Key B 2242/2260 (featured also PCI-e x2)
+  * 1x NVMe modules Slot M.2 Socket 3 Key M 2280 (PCI-e x4 Gen 3 interface)
+  * 1x SATA 3.0 6Gbit/s standard connector
 * Networking:
   * 1x Gigabit Ethernet LAN interface
-  * 1x M.2 Key E slot for optional Wireless(WiFi+BT) Module
+  * 1x M.2 Key E slot for optional Wireless(WiFi+BT) combo module
 * Audio interfaces:
-  * HD Audio Codec ALC283CG
+  * HD Audio Codec Realtek ALC888S
   * Microphone + Headphone Combo Connector (TRRS)
-  * Pre-amplified stereo speaker output
-  * S/PDIF output*
-* 3x USB 3.0 type-A sockets
-* 2x HSUART ports*
-* 2x I2C interface*
-* 1x SDIO interface*
-* 1x LPC interface*
-* 12V (± 5%) DC Power Jack (standard 5.5mm/2.1mm barrel jack: internal positive), at least 3A.
+  * Pre-amplified stereo Speaker Connectors (up to 3W)
+  * Digital Optical audio S/PDIF and analog stereo output combo jack 3.5mm connector
+* 2x USB 3.0 type-A sockets
+* 2x USB Type-C :
+  * USB 3.1 Gen 2
+  * DisplayPort Alternate Mode
+  * Dual Role Port (DRP) USB Power Delivery (USB-PD) 3.0
+* Embedded Controller I/O :
+  * 2x UART ports*
+  * 2x I2C interface*
+  * 1x SPI interface*
+  * 1x Keyboard Scan interface*
+  * 1x FAN Controller*
+  * up to 10x GPIO
+* Power In:
+  * 19V DC Power Jack at least 3A.
+  * USB Type-C power in. PD sink profile 20V/3A(60W).
 * RTC Battery Connector + RTC Coin Battery
 * Bi-color Power Status LED
-* 1x Sensor Snap-In I2C connector (UDOO Bricks)
-* Arduino&trade; 101-Compatible through the standard Arduino&trade; Pins layout and compatible with Arduino&trade; shields.
+* Arduino&trade; Leonardo-Compatible I/O :
+  * 12x analog inputs*
+  * up to 23x digital input/output (7 PWM)*
+  * 1x UART 1x I2C 1x SPI*
+  * 3x Grove connectors:
+     * 1x ANALOG INPUT, 1x UART or DIGITAL I/O, 1x I2C or DIGITAL I/O
+* Dimensions: 12cm x 12cm  -  4.72” x 4.72”
 
-&#42;Available on Pin Header
-&#42;&#42;Not compatible with NVMe modules
+&#42;Available on Pin Headers
 
 Visit the official accessories sections.
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
+* Official web site dedicated page[www.udoo.org/getstarted](asdfasdf)
 * Official forum [www.udoo.org/forum](https://www.udoo.org/forum/index.php)
 
 ### Forums
