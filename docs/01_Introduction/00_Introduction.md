@@ -52,7 +52,7 @@ UDOO Bolt retail line up consists of two models.
   * 1x 32GB eMMC 5.0 High Speed Drive
   * 1x SSD SATA module's Slot M.2 Socket 2 Key B 2242/2260 (featured also PCI-e x2)
   * 1x NVMe modules Slot M.2 Socket 3 Key M 2280 (PCI-e x4 Gen 3 interface)
-  * 1x SATA 3.0 6Gbit/s standard connector
+  * 1x SATA III 6Gbit/s standard connector
 * Networking:
   * 1x Gigabit Ethernet LAN interface
   * 1x M.2 Key E slot for optional Wireless(WiFi+BT) combo module
