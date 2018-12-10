@@ -29,7 +29,7 @@
 | <img src="../img/icons/other.png" height="20px" width="20px">           | Other Interfaces | Front Panel Headers, IR receiver (RC5 compatible), Fan controller, RTC battery included |
 | <img src="../img/icons/pins.png" height="20px" width="20px">            | Embedded Controller I/O Pins |  2x UART, 2x I2C, 1x SPI, 1x Keyboard Scan, 1x FAN Controller, 10x GPIO     |
 | <img src="../img/icons/os.png" height="20px" width="20px">              | Operating System | Windows 10 64bit ; Any Linux Distributin for X86 64bit                                  |
-| <img src="../img/icons/dimensions.png" height="20px" width="20px">      | Board Dimensions | 12cm x 12cm  -  4.72” x 4.72”  - (Nano-ITX)                                             |
+| <img src="../img/icons/dimensions.png" height="20px" width="20px">      | Board Dimensions | 12cm x 12cm  -  4.72” x 4.72”  - Nano-ITX standard form factor                          |
 
 ## ATMEL&reg; ATMEGA32U4 MICROCONTROLLER
 
@@ -38,7 +38,7 @@
 | <img src="../img/icons/processor.png" height="20px" width="20px">        | Microcontroller  | Atmel&reg; ATmega32U4 module                                     |
 | <img src="../img/icons/other.png" height="20px" width="20px">            | Other Interfaces | SPI Flash JTAG connector                                         |
 | <img src="../img/icons/arduino.png" height="20px" width="20px">          | Arduino Pinout   | Easy to use with a custom 2 rows pinout. Expandable with I/O shield to have the standard Arduino Pinour R3 |
-| <img src="../img/icons/pins.png" height="20px" width="20px">             | Digital I/O Pins | up to 23x digital input/output (7 PWM)*                          |
+| <img src="../img/icons/pins.png" height="20px" width="20px">             | Digital I/O Pins | up to 23x digital input/output (7 PWM)                          |
 | <img src="../img/icons/pins.png" height="20px" width="20px">             | Analog I/O Pins  | 12 (10 Bits of resolution)                                       |
 
 
