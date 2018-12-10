@@ -15,7 +15,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_Bolt/Doc/UDOO
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
-* CE certification retained using only the UDOO Bolt Power Supply 19V 3A.
+* CE certification retained using only the UDOO BOLT qualified Power Supply. When not using UDOO Bolt qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country(make sure that the power cable is less than 3 mt. long).
 * This product should be operated in a well-ventilated environment and, if used inside a case, the case should not be covered.
 * This product should be elevated on a stable, flat, electrically non-conductive surface whilst in operation, and clear from any object that can induce a short-circuit.
 * Do not expose it to water, moisture or heat from any source; UDOO BOLT is designed for reliable operation at normal ambient room temperatures.
@@ -24,6 +24,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_Bolt/Doc/UDOO
 * Take care whilst handling to avoid mechanical or electrical damage to the printed circuit board and connectors. Also use a grounded wrist strap or touch a safely grounded object before you handle components.
 * Never provide more than 5V in input to the GPIOs of the Arduino Leonardo(Atmel&reg; ATmega32U4), and never provide more than 3.3V in input to the GPIOs of the Embedded Controller.
 * Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO Bolt board with the risk of damage.
+* The most important safety rule of all: **Always Be Careful! (ABC)**
 
 
 ## Lineup
