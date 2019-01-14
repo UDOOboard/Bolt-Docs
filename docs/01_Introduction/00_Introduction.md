@@ -93,7 +93,7 @@ Visit the official accessories sections.
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
-* Official web site dedicated page[www.udoo.org/getstarted](asdfasdf)
+* Official web site dedicated page: tbu
 * Official forum [www.udoo.org/forum](https://www.udoo.org/forum/index.php)
 
 ### Forums
@@ -111,6 +111,7 @@ There is an (unofficial) UDOO discussion channel on IRC. Using the IRC client of
  * [Twitter](http://twitter.com/UDOO_Board)
  * [Google+](https://plus.google.com/u/0/110742692974455430878/posts)
  * [YouTube](http://www.youtube.com/channel/UCXv5UyGn5jArK8xOAmuSeHg)
+ * [Instagram](https://www.instagram.com/udoo_board/)
 
 
 <!-- Google Code -->
