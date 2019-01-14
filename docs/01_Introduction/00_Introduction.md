@@ -9,7 +9,7 @@ UDOO Bolt embeds two processors:
 
 While the AMD Ryzen&trade; Embedded V1000 processor can run all the Windows 10 and Linux 64bit Distros you want to use as desktop PC, the Atmel&reg; ATmega32U4 allows easy access to a Arduino&trade; Leonardo environment.
 
-Download the [**User Manual**](http://download.udoo.org/files/UDOO_Bolt/Doc/UDOO_Bolt_MANUAL.pdf) to have more complete explanation of the UDOO Bolt hardware and features.
+Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf) to have more complete explanation of the UDOO BOLT hardware and features.
 
 <hr/>
 
