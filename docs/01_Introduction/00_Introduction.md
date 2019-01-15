@@ -15,7 +15,8 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
-* CE certification retained using only the UDOO BOLT qualified Power Supply. When not using UDOO Bolt qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country(make sure that the power cable is less than 3 mt. long).
+* CE and FCC certifications retained using only the UDOO BOLT qualified Power Supply. When not using UDOO Bolt qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country (make sure that the power cable is less than 3 mt. long).
+* CE and FCC certifications retained with the board inside the UDOO BOLT metal case. When not available, we suggest using a case with the same attributes as the UDOO BOLT metal Case.
 * This product should be operated in a well-ventilated environment and, if used inside a case, the case should not be covered.
 * This product should be elevated on a stable, flat, electrically non-conductive surface whilst in operation, and clear from any object that can induce a short-circuit.
 * Do not expose it to water, moisture or heat from any source; UDOO BOLT is designed for reliable operation at normal ambient room temperatures.
@@ -47,7 +48,7 @@ UDOO Bolt retail line up consists of two models.
   * 2x Slot SO-DIMM Dual-channel 64-bit DDR4 2400 MT/s with ECC support up to 32GB
 * Atmel&reg; ATmega32U4 8-bit AVR RISC-based microcontroller.
 * Video interfaces:
-  * 2x HDMI 1.4/2.0a (CEC)
+  * 2x HDMI 1.4/2.0a
   * 2x USB Type-C (DP alternate mode)
 * Storage:
   * 1x 32GB eMMC 5.0 High Speed Drive
@@ -64,7 +65,7 @@ UDOO Bolt retail line up consists of two models.
   * Digital Optical audio S/PDIF and analog stereo output combo jack 3.5mm connector
 * 2x USB 3.0 type-A sockets
 * 2x USB Type-C :
-  * USB 3.1 Gen 2
+  * USB 3.1
   * DisplayPort Alternate Mode
   * Dual Role Port (DRP) USB Power Delivery (USB-PD) 3.0
 * Embedded Controller I/O :
