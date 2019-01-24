@@ -27,7 +27,7 @@ On the UDOO BOLT board there is also a Threaded Spacer which allows the placemen
 
 It is possible to place also modules in `2242` and `3042` size, by using a M/F Spacer which allows fixing the M.2 module on the spacer already available on the PCB, deemed for the fixing of the M.2 Wireless module.
 
-In the [Official Accessories](!Hardware_&_Accessories/Official_Accessories) section you can find a *M.2 SSD Transcend MTS600 2260* drive for purchase.
+In the [Official Accessories](!Hardware_&_Accessories/Official_Accessories) section you can find a *M.2 SSD Transcend MTS600 2260* drive compatible with this connector, available in the UDOO shop.
 
 ### M.2 NVMe Slot: Socket 3 Key M Type 2280
 
