@@ -8,7 +8,7 @@
 
 <br/>
 
-<a href="../img/bolt_blockdiagram300.png" target="\_blank"><img style="width:700px; " src="../img/bolt_blockdiagram72.png"></a>
+<a href="../img/bolt_blockdiagram300.jpg" target="\_blank"><img style="width:700px; " src="../img/bolt_blockdiagram72.jpg"></a>
 
 <br/>
 
