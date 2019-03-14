@@ -6,17 +6,6 @@ The eMMC use a **e.MMC 5.1 HS400** compliant interface.
 
 <span class="label label-warning">Heads up!</span> As a flash-based storage device, excessive drive access, particularly write commands, reduces its useful life. Therefore, it is strongly suggested to NOT create a swap partition on the eMMC device.
 
-### SATA
-
-The AMD Ryzen™ Embedded V1000 family of Processors embed a SATA Controller, which offers two **SATA III 6.0 Gbps** interfaces.
-
-Of these interfaces, one SATA channel is carried out to a standard male S-ATA connector, *CN14* (the other SATA channel is available on the M.2 Key B socket).
-
-A dedicated power connector *CN15*, can be used to give supply to *2.5"* Hard Disk Drives (or Solid State Drives) connected to the SATA male connector.  
-The dedicated power connector is a 4-pin male connector. You can find this cable in the [SATA data and power cables](http://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) kit.
-
-<span class="label label-warning">Heads up!</span> To connect a *3.5"* Hard Drive you need to provide SATA +5V+12V combo power supply from an external source.
-
 ### M.2 SATA/PCI-e x2 Slot: Socket 2 Key B type 2242/3042/2260
 
 The mass storage capabilities of the UDOO BOLT are completed by an M.2 SSD Slot, which allow plugging **M.2 Socket 2 Key B** Solid State Drives with *SATA* interface or *PCI-e x2* interface (*PCI-e x1* is also supported).  
@@ -36,3 +25,14 @@ Another possibility for connecting mass storage devices is given by the **M.2 Ke
 The connector used for the M.2 SSD slot is *CN17*, which is a standard 75 pin M.2 Key M connector, located at the bottom of the board.
 
 On the UDOO BOLT board there is also a Threaded Spacer which allows the placement of M.2 Socket 3 Key M PCI-e SSD modules in `2280` size.
+
+### SATA
+
+The AMD Ryzen™ Embedded V1000 family of Processors embed a SATA Controller, which offers two **SATA III 6.0 Gbps** interfaces.
+
+Of these interfaces, one SATA channel is carried out to a standard male S-ATA connector, *CN14* (the other SATA channel is available on the M.2 Key B socket).
+
+A dedicated power connector *CN15*, can be used to give supply to *2.5"* Hard Disk Drives (or Solid State Drives) connected to the SATA male connector.  
+The dedicated power connector is a 4-pin male connector. You can find this cable in the [SATA data and power cables](http://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) kit.
+
+<span class="label label-warning">Heads up!</span> To connect a *3.5"* Hard Drive you need to provide SATA +5V+12V combo power supply from an external source.
