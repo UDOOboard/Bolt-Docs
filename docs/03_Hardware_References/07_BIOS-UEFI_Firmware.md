@@ -20,8 +20,12 @@ For a complete explanation of the System Configuration Utility menu items you ca
 
 ## Restore Factory configuration
 
-You can restore the factory default settings pressing the **F9** key.
+In some cases, a wrong configuration of BIOS parameters could lead the module in an unusable state (i.e. no video output, all USB HID devices disabled).
+For these cases, on the module it has been placed a 3-way switch which can be used to restore the BIOS to factory default configuration. To do so, it is necessary to place the contact of the switch in 1-2 position, then turn on the module, wait until the board resets itself then turn off the module. The contact MUST be now placed back to 2-3 position.
+During normal use, the contact MUST be always placed in 2-3 position.
 
-You can also restore the factory UEFI BIOS configuration with a simple procedure involving the RTC battery: when the board is NOT connected to any power source, **unplug the RTC battery** on the bottom side of the board and keep it unplugged for **at least 1 minute**. Plug the RTC battery again and power up the board, all the configurations should now be reverted to the factory defaults.
+<img src="../img/bolt_uefi_restore_switch.png" alt="UDOO versions" class="img-responsive" >
 
-<span class="label label-warning">Heads up!</span> Updating the UEFI BIOS to a newer version will also restore the new factory default configuration.
+You can restore the factory default settings also from within the BIOS/UEFI settings pressing the **F9** key.
+
+<span class="label label-warning">Heads up!</span> Updating the BIOS/UEFI to a newer version will also restore the new factory default configuration.

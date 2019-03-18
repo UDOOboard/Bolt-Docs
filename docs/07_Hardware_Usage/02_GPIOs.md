@@ -49,7 +49,7 @@ In the following image you can see in grey labels the 16 GPIOs manageable from t
 
 <a href="../img/x86_pinout_braswell_post415.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_braswell_post415.png"></a>
 
-Visit the [Pinout Braswell](!Hardware_References/Pinout_Braswell) section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
+Visit the [Pinout Braswell] section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
 
 The GPIO function is enabled by default in the UEFI BIOS Setup configuration of the UDOO X86.
 
@@ -108,7 +108,7 @@ In the following image you can see in grey labels the 16 GPIOs manageable from t
 
 <a href="../img/x86_pinout_braswell_prev415.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_braswell_prev415.png"></a>
 
-Visit the [Pinout Braswell](!Hardware_References/Pinout_Braswell) section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
+Visit the [Pinout Braswell] section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
 
 The GPIO function is enabled by default in the UEFI BIOS Setup configuration of the UDOO X86.
 

@@ -1,4 +1,4 @@
-The embedded Arduino Leonardo-compatible input/output (I/O) pins operate at **5V**, with a maximum **40 mA** DC current per pin. They are located on the top of the board on a dual row dedicate female header(CN24).
+The embedded Arduino Leonardo-compatible input/output (I/O) pins operate at **5V**, with a maximum **40 mA** DC current per pin. They are located on the top of the board on a dual row dedicated female header(CN24).
 
 
 <a href="../img/bolt_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/bolt_pinout_arduino.png"></a>
@@ -49,7 +49,7 @@ The 3 Grove connectors are directly connected to the ATmega32u4 Arduino Leonardo
 
 ## Arduino&reg; Shields compatibility
 
-This is the first time that a UDOO board doesn't present the standard Arduino&reg; Pinout, however, you can use the [UDOO BOLT I/O Expansion Board](!Hardware_&_Accessories/Official_Accessories) to have the standard Arduino&reg; Pinout and use the all the Arduino&reg; shields you want.  
+This is the first time that a UDOO board doesn't present the standard Arduino&reg; Pinout, however, you can use the [UDOO BOLT I/O Expansion Board](!Accessories/Official_Accessories) to have the standard Arduino&reg; Pinout and use the all the Arduino&reg; shields you want.  
 
 <img src="../img/bolt_io_expansion_board.png" alt="UDOO I/O Expansion Board" class="img-responsive" >
 

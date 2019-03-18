@@ -102,7 +102,7 @@ If you're looking for more info about this screen you can check the wiki page of
 
 ### Metal Case
 
-[Buy it from the shop]()
+[Buy it from the shop](link coming soon)
 
 A beautiful metal case for your UDOO BOLT.  
 <span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat itself, but it allow the airflow to dissipate the board properly using the processor fan.
