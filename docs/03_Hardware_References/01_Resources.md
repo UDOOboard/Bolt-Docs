@@ -1,4 +1,4 @@
-### UDOO X86 Hardware and UEFI BIOS User Manual
+### UDOO BOLT Hardware and UEFI BIOS User Manual
 
 For a complete explanation of the UDOO BOLT hardware you can download the  
 * [**UDOO BOLT** Hardware and UEFI **User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)

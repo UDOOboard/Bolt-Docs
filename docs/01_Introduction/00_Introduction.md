@@ -1,9 +1,9 @@
-# UDOO Bolt
-**UDOO Bolt** is a portable, breakthrough supercomputer that goes up to *3.6 GHz* thanks to the brand-new **AMD Ryzen&trade; Embedded V1000 SoC**, a top-notch APU, multicore CPU with powerful integrated mobile GPU - *AMD Radeon&trade; Vega 8 or AMD Radeon&trade; Vega 3 Graphics* - and an integrated **Arduino&reg; Leonardo-compatible** platform, all wrapped into one.
+# UDOO BOLT
+**UDOO BOLT** is a portable, breakthrough supercomputer that goes up to *3.6 GHz* thanks to the brand-new **AMD Ryzen&trade; Embedded V1000 SoC**, a top-notch APU, multicore CPU with powerful integrated mobile GPU - *AMD Radeon&trade; Vega 8 or AMD Radeon&trade; Vega 3 Graphics* - and an integrated **Arduino&reg; Leonardo-compatible** platform, all wrapped into one.
 
-On **UDOO Bolt** you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&reg; Leonardo world, including all the sketches, libraries and the official Arduino&reg; IDE.
+On **UDOO BOLT** you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&reg; Leonardo world, including all the sketches, libraries and the official Arduino&reg; IDE.
 
-UDOO Bolt embeds two processors:
+UDOO BOLT embeds two processors:
 * the new [**AMD Ryzen&trade; Embedded V1000**](https://www.amd.com/en/products/embedded-ryzen-v1000-series), *V1605B* or *1202B*, 14nm, up to a *4-cores/8-threads* CPU, with a thermal design power of just *12-25W*, designed for really fast Ultrathin Notebooks. This processor family brings together the breakthrough performance of the pioneering *AMD “Zen” CPU* and *AMD “Vega” GPU* architectures in a seamlessly-integrated SoC solution that sets a new standard in processing power for next-generation embedded designs.
 * the [**Microchip ATmega32U4**](https://www.microchip.com/wwwproducts/en/ATmega32u4) 8-bit AVR microcontroller, the same of *Arduino&reg; Leonardo*.
 
@@ -16,7 +16,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
-* CE and FCC certifications retained using only the UDOO BOLT qualified Power Supply. When not using UDOO Bolt qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country (make sure that the power cable is less than 3 mt. long).
+* CE and FCC certifications retained using only the UDOO BOLT qualified Power Supply. When not using UDOO BOLT qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country (make sure that the power cable is less than 3 mt. long).
 * CE and FCC certifications retained with the board inside the UDOO BOLT metal case. When not available, we suggest using a case with the same attributes as the UDOO BOLT metal Case.
 * This product should be operated in a well-ventilated environment and, if used inside a case, the case should not be covered.
 * This product should be elevated on a stable, flat, electrically non-conductive surface whilst in operation, and clear from any object that can induce a short-circuit.
@@ -25,12 +25,12 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO
 * Only handle by the edges to minimise the risk of electrostatic discharge damage.
 * Take care whilst handling to avoid mechanical or electrical damage to the printed circuit board and connectors. Also use a grounded wrist strap or touch a safely grounded object before you handle components.
 * Never provide more than 5V in input to the GPIOs of the Arduino Leonardo(Atmel&reg; ATmega32U4), and never provide more than 3.3V in input to the GPIOs of the Embedded Controller.
-* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO Bolt board with the risk of damage.
+* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO BOLT board with the risk of damage.
 * The most important safety rule of all: **Always Be Careful! (ABC)**
 
 
 ## Lineup
-UDOO Bolt retail line up consists of two models.
+UDOO BOLT retail line up consists of two models.
 
 <img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
