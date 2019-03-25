@@ -7,6 +7,7 @@ It is possible to access to AMI Setup Utility by pressing the escape key (`ESC`)
 At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily updates flash devices with new BISO/UEFI Firmware version.
 
 [UEFI BIOS Firmware + Update Utility Tool]()
+Coming Soon
 
 The package contains:
 * Latest UEFI Firmware binary

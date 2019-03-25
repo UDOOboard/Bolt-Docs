@@ -1,4 +1,4 @@
-In the [UDOO Shop](https://shop.udoo.org/) you can also find some accessories for the UDOO X86.
+In the [UDOO Shop](https://shop.udoo.org/) you can also find some accessories for the UDOO BOLT.
 
 ## M.2 Modules
 
@@ -57,7 +57,7 @@ To mount the WiFi/BT Kit is necessary the following fixtures (included with the 
 
 This module is based on **2x Realtek 8111GS** Ethernet controllers (fully compliant with *IEEE 802.3*, *IEEE 802.3u*, *IEEE 802.3ab*).
 
-When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, the UDOO X86 board will offer three different Gigabit Ethernet ports.
+When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, the UDOO BOLT board will offer three different Gigabit Ethernet ports.
 
 To mount the M.2 dual Ethernet Module Kit is necessary the following fixtures (included with the board):
 
@@ -82,7 +82,7 @@ Display Features:
 
 * 1024×600 high resolution;
 * Resistive touch control;
-* Compatible and Direct-connect with UDOO X86 with Windows 10/8.1/8/7, Linux and Android operating system;
+* Compatible and Direct-connect with UDOO BOLT with Windows 10 and Linux Operating Systems;
 * Also works as a computer monitor, in this case, touch panel is unavailable and HDMI cable is required;
 * HDMI interface for displaying, no I/Os required (however, the touch panel still needs I/Os);
 * Multi-languages OSD menu, for power management, brightness adjustment, contrast adjustment, etc;
@@ -164,8 +164,8 @@ For example you can use 2x U.FL/IPEX to RP-SMA cables and 2x RP-SMA antennas lik
 
 * [HDMI to HDMI](https://shop.udoo.org/cable-hdmi-to-hdmi.html) -
 HDMI A Male to A Male Cable 2MT: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)
-* [SATA data and power cables for UDOO X86](https://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) -
+* [SATA data and power cables kit](https://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) -
 SATA data and power cables for UDOO BOLT (CN18 and CN30 connectors)
-* [Power Supply EU 19V 3.42A for UDOO BOLT]() -
+* [Power Supply EU 19V 3.42A for UDOO BOLT - link coming soon
   * Input: 100-240VAC 50/60Hz Output: 19V 3.42A DC
   * Output plug: 4.5mm * 3mm * 10mm

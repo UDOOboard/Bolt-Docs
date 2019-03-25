@@ -13,7 +13,7 @@ Here you can find the schematics files of the UDOO BOLT:
 ### Bill of Material (BOM)
 
 Here you can find the Bill of Materials(BOM) file of the UDOO BOLT:
-* [Bill of Material (BOM)](http://download.udoo.org/files/UDOO_X86/schematics/UDOO_BOLT_BOM.zip)
+* [Bill of Material (BOM)](http://download.udoo.org/files/UDOO_BOLT/schematics/UDOO_BOLT_BOM.zip)
 
 ### Mechanical Specs - 3D Design Files
 

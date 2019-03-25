@@ -3,7 +3,7 @@ When configured as an output, it is possible to write to an internal register to
 
 **UDOO BOLT** features a total of **36** GPIOs available on the external Pinout connectors.
 
-* **16** GPIOs are available in the external Pinout columns manageable from the main Intel&reg; Braswell processor of the UDOO X86. These Pins are *1.8V only compliant*.
+* **16** GPIOs are available in the external Pinout columns manageable from the main Intel&reg; Braswell processor of the UDOO BOLT. These Pins are *1.8V only compliant*.
 * **20** GPIOs are available in the internal Arduino Pinout columns manageable from the Intel&reg; Curie&trade; processor of the Arduino 101 embedded. These Pins are *3.3V compliant and 5V tollerant*.
 
 Select the tab accordingly to which Processing Unit you want use to manage the related GPIOs.
@@ -30,9 +30,9 @@ Refer to the [Arudino Leonardo] section to manage the Arduino GPIOs. You will be
 
 ## Braswell GPIOs
 
-In this section you can see how to use the 16 GPIOs manageable from the main Intel&reg; Braswell processor of the UDOO X86.  
-The Linux driver used to manage the UDOO X86 Braswell GPIOs is [Cherryview/Braswell pinctrl driver](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/intel/pinctrl-cherryview.c).  
-Since the `Linux Kernel version 4.15` the driver has changed the number associated to each GPIOs managable by the external pinout of the UDOO X86.  
+In this section you can see how to use the 16 GPIOs manageable from the main Intel&reg; Braswell processor of the UDOO BOLT.  
+The Linux driver used to manage the UDOO BOLT Braswell GPIOs is [Cherryview/Braswell pinctrl driver](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/intel/pinctrl-cherryview.c).  
+Since the `Linux Kernel version 4.15` the driver has changed the number associated to each GPIOs managable by the external pinout of the UDOO BOLT.  
 Linux Kernel version 4.15 is the default one in Ubuntu 18.04 LTS distro.
 Chose the TAB accordingly with the Linux Kernel version are you using.
 
@@ -49,22 +49,22 @@ In the following image you can see in grey labels the 16 GPIOs manageable from t
 
 <a href="../img/x86_pinout_braswell_post415.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_braswell_post415.png"></a>
 
-Visit the [Pinout Braswell] section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
+Visit the [Pinout Braswell] section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO BOLT.
 
-The GPIO function is enabled by default in the UEFI BIOS Setup configuration of the UDOO X86.
+The GPIO function is enabled by default in the UEFI BIOS Setup configuration of the UDOO BOLT.
 
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
   <span class="sr-only">Warning!</span>
-  Warning: UDOO X86 Pins controlled by the main Braswell processor are 1.8V only compliant. Providing higher voltages, like 3.3V or 5V, could irreversibly damage the board.  
+  Warning: UDOO BOLT Pins controlled by the main Braswell processor are 1.8V only compliant. Providing higher voltages, like 3.3V or 5V, could irreversibly damage the board.  
   In order to properly work with an input voltage different from 1.8V use a bidirectional level shifter.
 </div>
 
-Take a look at this exhaustive guide [How to use 1.8V serial on UDOO X86 with 3.3V-5V devices](http://www.geduino.org/site/archives/284) by [Geduino Foundation](http://www.geduino.org) to learn how to proper use a level shifter to work with a different voltage from 1.8V in the Braswell pinout.
+Take a look at this exhaustive guide [How to use 1.8V serial on UDOO BOLT with 3.3V-5V devices](http://www.geduino.org/site/archives/284) by [Geduino Foundation](http://www.geduino.org) to learn how to proper use a level shifter to work with a different voltage from 1.8V in the Braswell pinout.
 
 ## Linux Manipulation
 
-The Linux driver used to manage the UDOO X86 Braswell GPIOs is [Cherryview/Braswell pinctrl driver](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/intel/pinctrl-cherryview.c)
+The Linux driver used to manage the UDOO BOLT Braswell GPIOs is [Cherryview/Braswell pinctrl driver](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/intel/pinctrl-cherryview.c)
 
 In the following tables you can find GPIO numbers assigned by the driver to each Pin that can act as GPIO. In the UDOO forum you can check the correct procedure to find the correct GPIO number assigned to each Pin explained in [this post by fajar.adianto](https://www.udoo.org/forum/threads/gpio-output-pins-not-changing-state.17620/#post-45624).
 
@@ -108,22 +108,22 @@ In the following image you can see in grey labels the 16 GPIOs manageable from t
 
 <a href="../img/x86_pinout_braswell_prev415.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_braswell_prev415.png"></a>
 
-Visit the [Pinout Braswell] section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
+Visit the [Pinout Braswell] section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO BOLT.
 
-The GPIO function is enabled by default in the UEFI BIOS Setup configuration of the UDOO X86.
+The GPIO function is enabled by default in the UEFI BIOS Setup configuration of the UDOO BOLT.
 
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
   <span class="sr-only">Warning!</span>
-  Warning: UDOO X86 Pins controlled by the main Braswell processor are 1.8V only compliant. Providing higher voltages, like 3.3V or 5V, could irreversibly damage the board.  
+  Warning: UDOO BOLT Pins controlled by the main Braswell processor are 1.8V only compliant. Providing higher voltages, like 3.3V or 5V, could irreversibly damage the board.  
   In order to properly work with an input voltage different from 1.8V use a bidirectional level shifter.
 </div>
 
-Take a look at this exhaustive guide [How to use 1.8V serial on UDOO X86 with 3.3V-5V devices](http://www.geduino.org/site/archives/284) by [Geduino Foundation](http://www.geduino.org) to learn how to proper use a level shifter to work with a different voltage from 1.8V in the Braswell pinout.
+Take a look at this exhaustive guide [How to use 1.8V serial on UDOO BOLT with 3.3V-5V devices](http://www.geduino.org/site/archives/284) by [Geduino Foundation](http://www.geduino.org) to learn how to proper use a level shifter to work with a different voltage from 1.8V in the Braswell pinout.
 
 ## Linux Manipulation
 
-The Linux driver used to manage the UDOO X86 Braswell GPIOs is [Cherryview/Braswell pinctrl driver](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/intel/pinctrl-cherryview.c)
+The Linux driver used to manage the UDOO BOLT Braswell GPIOs is [Cherryview/Braswell pinctrl driver](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/intel/pinctrl-cherryview.c)
 
 In the following tables you can find GPIO numbers assigned by the driver to each Pin that can act as GPIO.
 

@@ -38,4 +38,4 @@ In addition, there are displays that provide power via USB-C. Once the display i
 
 ### UDOO Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the UDOO X86 hardware you can download the [UDOO BOLT Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
+For a complete explanation of the UDOO BOLT hardware you can download the [UDOO BOLT Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
