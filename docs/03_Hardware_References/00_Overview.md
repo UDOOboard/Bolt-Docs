@@ -1,8 +1,9 @@
 ## TOP AND BOTTOM VIEWS
 
-<img src="../img/x86_top.png" alt="UDOO versions" class="img-responsive" >
-
-<img src="../img/x86_bottom.png" alt="UDOO versions" class="img-responsive" >
+<img src="../img/bolt_top_graphical72.png" alt="UDOO versions" class="img-responsive" >
+<br/>
+<br/>
+<img src="../img/bolt_bottom_graphical72.png" alt="UDOO versions" class="img-responsive" >
 
 ## BLOCK DIAGRAM
 

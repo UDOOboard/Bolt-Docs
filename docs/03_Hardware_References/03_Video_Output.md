@@ -10,12 +10,12 @@ The AMD Radeon&trade; Vega Graphics controller, with 3 or 8 Execution units, off
 
 ### Video Output Connectors
 
-The UDOO BOLT is able to drive 4x 4K independent displays, by using the 2x HDMI and the 2x USB-C interfaces available.
+The UDOO BOLT is able to drive 4x 4K independent displays, by using the 2x HDMI 2.0 and the 2x USB-C interfaces available.
 The AMD Ryzen Embedded V1000 family of Processors offer four Digital Display Interfaces, configurable to work in HDMI/DVI/DP++ modes.
 
 #### HDMI Connectors
 
-On the UDOO BOLT board, the Digital Display Interfaces #0 and #1 are used to implement two HDMI interfaces through as many HDMI ReDriver / Level shifters and ESD protection + signal conditioning ICs.
+On the UDOO BOLT board, the Digital Display Interfaces #0 and #1 are used to implement two **HDMI 2.0** interfaces through as many HDMI ReDriver / Level shifters and ESD protection + signal conditioning ICs.
 
 Maximum resolution:
 * 4096x2160 @ 60Hz
