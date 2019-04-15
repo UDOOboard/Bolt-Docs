@@ -11,8 +11,8 @@ Coming Soon
 
 The package contains:
 * Latest UEFI Firmware binary
-  * Firmware name: 
-  * BIOS version:  1.02
+  * Firmware name:
+  * BIOS version:  1.04
   * Release Date:  
   * SHA1 .zip file:  
 * Update Utility Tool
