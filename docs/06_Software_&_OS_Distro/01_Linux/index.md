@@ -1,4 +1,4 @@
-UDOO BOLT is a Single Board Computer based on the **AMD Ryzen&trade; Embedded V1000** family of System-on-Chips (SoCs), a series of Dual or Quad Core, 14nm, SoCs with **64-bit instruction set** and very low TDP.
+**UDOO BOLT** is a Single Board Computer based on the **AMD Ryzen&trade; Embedded V1000** family of System-on-Chips (SoCs), a series of Dual or Quad Core, 14nm, SoCs with **64-bit instruction set** and very low TDP.
 
 Thanks to the x86_64 instruction set, the **UDOO BOLT** supports all the *x86 Linux* distribution for **32-bit**(aka i386, IA-32, x86-32, x86_32) and **64-bit**(aka x64, x86-64, x86_64).
 
@@ -8,11 +8,10 @@ We suggest to always use a **64-bit** OS version.
 
 In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
 
-In order to download the latest stable updated versions of the **AMD Ryzen&trade; drivers for the v1000 Embedded Series processors** you can visit this page: [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000).  
-The OS supported by these drivers in the *Linux x86_64* version is **Ubuntu 18.04.1 LTS**.
-In the package you can find a *User Manual* with instructions to know how to install the drivers.
+<span class="label label-warning">Heads up!</span> There is a **known issue** with amdgpu driver which comes with 18.04 LTS and maybe others Linux distros. During and after OS
+installation it is possible that you may receive a UI after login or you may not. Check the [Known issues](!Software_&_OS_Distro/Linux/Known_issues) section to know how to deal with it.
 
-You can use also the standard open source drivers contained in the Linux Kernel but some of the graphical features *(Libdrm, Mesa, Ddx, Gstomx, LLVM, Vulkan, ROCm)* may not work as expected.
+If you are looking for the **Linux Drivers for the V1000 Processors** you can check the [Linux Drivers](!Software_&_OS_Distro/Linux/Drivers) section.
 
 <span class="label label-warning">Heads up!</span> The AMD processors of the UDOO BOLT and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and all working properly.
 
@@ -20,7 +19,7 @@ You can use also the standard open source drivers contained in the Linux Kernel 
 
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
-* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 18.10 Cosmic Cuttlefish** is the latest Ubuntu released version. **Ubuntu 18.04 LTS Bionic Beaver** is the latest Long Term Support version with a support end of life on April 2023. In the [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000) page you can find AMD stable drivers to support **Ubuntu 18.04.1 LTS**.
+* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 19.04 Disco Dingo** is the latest Ubuntu released version. **Ubuntu 18.04 LTS Bionic Beaver** is the latest Long Term Support version with a support end of life on April 2023. In the [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000) page you can find AMD stable drivers to support **Ubuntu 18.04.1 LTS**.
 
 * [**Linux Mint**](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  
 
