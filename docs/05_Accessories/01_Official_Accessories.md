@@ -144,7 +144,7 @@ UDOO BOLT METAL CASE includes:
 <br/>
 <br/>
 
-The case features also two holes, in the back side, for connecting externally the WiFi and BT antennas of the M.2 module through a RP-SMA connector.  
+The case also features two holes, in the back side, for connecting externally the WiFi and BT antennas of the M.2 module through a RP-SMA connector.  
 For example you can use 2x U.FL/IPEX to RP-SMA cables and 2x RP-SMA antennas like in the following image.  
 <span class="label label-warning">Heads up!</span> These items are not included.  
 
