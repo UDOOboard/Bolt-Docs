@@ -3,7 +3,7 @@ To start programming the Arduino&reg; Leonardo-compatible embedded microcontroll
 
 You can refer the [Arduino Leonardo](https://www.arduino.cc/en/Main/Arduino_BoardLeonardo) page and the [Getting Started with the Arduino Leonardo](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro) page of the Arduino&reg; website.  
 
-The getting started Arduino page will guide you through the installation of the IDE, Drivers, first example and other than everything you need to program the Arduino Leonardo and use the pinout.  
+The getting started Arduino page will guide you through the installation of the IDE, Drivers, first example and everything you need to program the Arduino Leonardo and how to use the pinout.  
 You can also find useful tutorials and a "please read..." section.
 
 ## USB Devices
