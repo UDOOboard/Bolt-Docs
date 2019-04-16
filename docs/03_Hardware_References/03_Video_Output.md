@@ -34,8 +34,3 @@ Maximum resolution:
 
 In the market, you can find USB-C Touch Displays and with a single USB-C cable power the display, send the video signal and receive the touch signal.
 In addition, there are displays that provide power via USB-C. Once the display is connected to a standard power supply, they allow the UDOO BOLT to be powered by a single USB-C cable and receive the video signal.
-
-
-### UDOO Hardware and UEFI BIOS User Manual
-
-For a complete explanation of the UDOO BOLT hardware you can download the [UDOO BOLT Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
