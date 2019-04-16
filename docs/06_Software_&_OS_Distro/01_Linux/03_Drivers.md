@@ -13,6 +13,6 @@ Inside the package folder open a terminal and run the following commands:
       sudo chmod +x install_debs.sh
       sudo ./install_debs.sh
 
-If you need, you will also find in the AMD package all the documentation and resources to compile the AMD kernel and user space packages by your own.  
+If you need, you will also find in the AMD package all the documentation and resources to compile the AMD kernel and user space packages on your own.  
 
 You can also use the standard open source drivers contained in the Linux Kernel but some of the graphical features *(Libdrm, Mesa, Ddx, Gstomx, LLVM, Vulkan, ROCm)* may not work as expected.
