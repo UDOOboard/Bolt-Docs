@@ -1,10 +1,7 @@
 **UDOO BOLT** is a Single Board Computer based on the **AMD Ryzen&trade; Embedded V1000** family of System-on-Chips (SoCs), a series of Dual or Quad Core, 14nm, SoCs with **64-bit instruction set** and very low TDP.
 
-Thanks to the x86_64 instruction set, the **UDOO BOLT** supports all the *x86 Linux* distribution for **32-bit**(aka i386, IA-32, x86-32, x86_32) and **64-bit**(aka x64, x86-64, x86_64).
-
+The **UDOO BOLT** supports all the *x86 Linux* distributions **64-bit**(aka x64, x86-64, x86_64).
 We suggest to always use a **64-bit** OS version.
-
-<span class="label label-warning">Heads up!</span> Please notice that usually you need a 64-bit OS version to exploit more than 4GB of RAM. Total amount of memory available with a 32-bit OS depends on the OS itself (usually less than 4GB unless the OS isn't using [PAE](https://en.wikipedia.org/wiki/Physical_Address_Extension)).
 
 In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
 

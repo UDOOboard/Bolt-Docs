@@ -2,10 +2,10 @@
 
 There is a **known issue** with amdgpu driver which comes with **Ubuntu 18.04 LTS** (and maybe others Linux distros). During and after OS installation it is possible that you may receive a UI after login or you may not.
 
-You can find all the reference about this issue in the amdgpu Documentation (amdgpu_UserGuide) in the driver packages downloadable from the AMD official website.
+You can find all the references about this issue in the amdgpu Documentation (amdgpu_UserGuide) in the driver packages downloadable from the AMD official website.
 Check the [Linux Drivers](!Software_&_OS_Distro/Linux/Drivers) section to download the latest driver package.
 
-If you go against this problem during the installation of Ubuntu 18.04 LTS follow the instructions below
+If you experience this problem during the installation of Ubuntu 18.04 LTS follow the instructions below
 
 To workaround this issue you need to start the installation by adding `nomodeset` parameter to grub.
 
@@ -40,10 +40,10 @@ We already followed the guide and created a custom installable .iso with the AMD
 You can download the custom image file here: [**Ubuntu 18.04.1 UDOO BOLT eMMC installer image**](http://download.udoo.org/files/UDOO_BOLT/Ubuntu/ubuntu-18.04.1.bolt_emmc.zip)  
 SHA1SUM: *6aa0c46436945074b571aae37a5923fcb4c02def  ubuntu-18.04.1.bolt_emmc.zip*
 
-<span class="label label-warning">Heads up!</span> We suggest to use [Rufus](https://rufus.ie/) to create the bootable USB drive or a valid Linux alternative. Seems that *Startup Disk Creator* of Ubuntu don't create the bootable USB drive from this image properly.
+<span class="label label-warning">Heads up!</span> We suggest to use [Rufus](https://rufus.ie/) to create the bootable USB drive or a valid Linux alternative. Seems that *Startup Disk Creator* of Ubuntu doesn't create the bootable USB drive from this image properly.
 
 Once you have downloaded the image you need to extract it from the .zip file and create a bootable USB drive.  
-In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
+In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide on how to install a Linux distro, the example is based on the Ubuntu OS.
 
 <span class="label label-warning">Heads up!</span> Unfortunately, the image created following the AMD guide to apply the eMMC patch does not take into account the previous problem with AMD amdgpu graphics drivers, so you also need to follow the previous section with the `nomodeset` procedure to install the OS and use it.
 
