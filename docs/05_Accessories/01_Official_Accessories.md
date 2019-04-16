@@ -112,7 +112,16 @@ Check here the [mechanical drawing](http://download.udoo.org/files/UDOO_BOLT/mec
 UDOO BOLT METAL CASE includes:
 * 1x Sheet Metal Internal Part;
 * 1x Extruded Metal external Part;
-* 1x kit with screws, rubber feet, ecc.;
+* 1x accessory kit:
+  * 4x M3x6mm pan head screw, cross recessed
+  * 4x M3x6mm countersink screw, cross recessed
+  * 4x M2.5x6mm countersink screw, cross recessed
+  * 1x Light Pipe
+  * 1x Rubber stop for light pipe
+  * 4x M4x12mm countersink screw, cross recessed
+  * 4x M3 washer
+  * 1x Momentary Push Button 12mm
+  * 4x Rubber feet
 
 <img style="width:380px;" src="../img/accessories/bolt_metalcase1.jpg" class="pull-left"><img style="width:380px;margin-left:20px;" src="../img/accessories/bolt_metalcase2.jpg" class="pull-left">
 
