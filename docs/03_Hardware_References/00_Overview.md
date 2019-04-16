@@ -43,4 +43,4 @@
 | <img src="../img/icons/pins.png" height="20px" width="20px">             | Analog I/O Pins  | 12 (10 Bits of resolution)                                       |
 
 
-<span class="label label-warning">Heads up!</span> The communication between the AMD Ryzen™ Embedded V1000 SOC and the Atmel&reg; ATmega32U4 module come through a USB interface, exactly like an Arduino&trade; Leonardo board connects to an external PC.  
+<span class="label label-warning">Heads up!</span> The communication between the AMD Ryzen™ Embedded V1000 SOC and the Atmel&reg; ATmega32U4 module comes through a USB interface, exactly like an Arduino&trade; Leonardo board connects to an external PC.  

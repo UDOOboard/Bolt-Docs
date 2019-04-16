@@ -13,4 +13,4 @@ Here you can find the mechanical specs files of the UDOO BOLT:
 * [UDOO BOLT Metal Case drawings](http://download.udoo.org/files/UDOO_BOLT/mechanical_specs/UDOO_BOLT_metal_case_drawings.pdf).
 
 
-<span class="label label-warning">Heads up!</span> Other files, like the schematics of the baord, will be shared further on.
+<span class="label label-warning">Heads up!</span> Other files, like the schematics of the board, will be shared further on.
