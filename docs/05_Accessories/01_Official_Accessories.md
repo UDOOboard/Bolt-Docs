@@ -107,7 +107,7 @@ If you're looking for more info about this screen you can check the wiki page of
 A beautiful metal case for your UDOO BOLT.  
 <span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat itself, but it allow the airflow to dissipate the board properly using the processor fan.
 
-Check here the [mechanical drawing](http://download.udoo.org/files/UDOO_BOLT/mechanical_specs/UDOO_BOLT_metal_case_drawings.pdf) to see the dimensions of the case.
+Check the [mechanical drawing](http://download.udoo.org/files/UDOO_BOLT/mechanical_specs/UDOO_BOLT_metal_case_drawings.pdf) to see the case dimensions.
 
 UDOO BOLT METAL CASE includes:
 * 1x Sheet Metal Internal Part;
