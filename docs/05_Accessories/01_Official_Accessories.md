@@ -43,9 +43,9 @@ For more info about this WiFi/BT module you can check the [datasheet from the In
 
 <span class="label label-warning">Heads up!</span> Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (Intel® AC3168) was released in 2016 so we suggest to use a recent distribution to find the latest drivers already installed. If you are using a Linux distribution you need at least the v4.6 of the Linux Kernel to make this module work properly.
 
-<span class="label label-warning">Heads up!</span> You need both the antennas to make the module works properly. Connect an antenna to the `Main A` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux B` connector to enhance **Bluetooth** and **BluetoothLE** signal.
+<span class="label label-warning">Heads up!</span> You need both the antennas to make the module work properly. Connect an antenna to the `Main A` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux B` connector to enhance **Bluetooth** and **BluetoothLE** signal.
 
-To mount the WiFi/BT Kit is necessary the following fixtures (included with the board):
+To mount the WiFi/BT Kit the following fixtures are necessary(included with the board):
 
 * 1x **M3x8mm** Flat Head Screw
 
@@ -59,7 +59,7 @@ This module is based on **2x Realtek 8111GS** Ethernet controllers (fully compli
 
 When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, the UDOO BOLT board will offer three different Gigabit Ethernet ports.
 
-To mount the M.2 dual Ethernet Module Kit is necessary the following fixtures (included with the board):
+To mount the M.2 dual Ethernet Module Kit the following fixtures are necessary (included with the board):
 
 * 1x **M3x12mm** Screw
 
