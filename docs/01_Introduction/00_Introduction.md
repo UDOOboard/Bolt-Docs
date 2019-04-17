@@ -32,7 +32,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO
 ## Lineup
 UDOO BOLT retail line up consists of two models.
 
-* **UDOO BOLT V8** 
+* **UDOO BOLT V8**
 * **UDOO BOLT V3**
 
 Check the [Board Versions](!Hardware_References/Board_versions) section to see the differences between the two.
@@ -80,7 +80,7 @@ Check the [Board Versions](!Hardware_References/Board_versions) section to see t
   * 1x FAN Controller*
   * up to 10x GPIO
 * Power In:
-  * 19V DC Power Jack at least 3A.
+  * 19V DC Power Jack min 3.15A (60W) for basic functionalities - Male connector 4.5mm x 3.0mm with pin inside.
   * USB Type-C power in. PD sink profile 20V/3A(60W).
 * RTC Battery Connector + RTC Coin Battery
 * Bi-color Power Status LED
