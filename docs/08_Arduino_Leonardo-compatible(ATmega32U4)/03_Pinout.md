@@ -38,7 +38,7 @@ The pins 3 (interrupt 0), 2 (interrupt 1), 0 (interrupt 2), 1 (interrupt 3) and 
 ## Grove connectors
 
 The UDOO BOLT features 3 Grove connectors to use Sensors and actuators from the [Grove System](http://wiki.seeedstudio.com/Grove_System/) by Seeed.
-The 3 Grove connectors are directly connected to the ATmega32u4 Arduino Leonardo-compatible pins so is exactly like connecting the sensors to the Arduino Pins.
+The 3 Grove connectors are directly connected to the same pins of the external pinout.
 
 | Grove Connector | Conn. ID | Signal Pins |
 |-|-|-|
