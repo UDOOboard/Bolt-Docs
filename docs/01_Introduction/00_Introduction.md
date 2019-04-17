@@ -32,7 +32,10 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO
 ## Lineup
 UDOO BOLT retail line up consists of two models.
 
-<img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
+* **UDOO BOLT V8** 
+* **UDOO BOLT V3**
+
+Check the [Board Versions](!Hardware_References/Board_versions) section to see the differences between the two.
 
 
 ## Technical specifications
