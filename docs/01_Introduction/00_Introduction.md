@@ -37,7 +37,7 @@ UDOO BOLT retail line up consists of two models.
 
 ## Technical specifications
 
-<img src="../img/x86_ultra_top_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
+<img src="../img/bolt_top.png" alt="UDOO_BOLT_top" class="img-responsive pull-right" height="500px" style="margin-bottom:20px; margin-left:30px;">
 
 * Processor:
   * CPU AMD Ryzen&trade; Embedded V1605B SoC up to 3.6 GHz (V8 version)
