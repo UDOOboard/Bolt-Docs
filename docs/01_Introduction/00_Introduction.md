@@ -81,7 +81,7 @@ Check the [Board Versions](!Hardware_References/Board_versions) section to see t
   * up to 10x GPIO
 * Power In:
   * 19V DC Power Jack min 3.15A (60W) for basic functionalities - Male connector 4.5mm x 3.0mm with pin inside.
-  * USB Type-C power in. PD sink profile 20V/3A(60W).
+  * 2x USB Type-C power in. PD sink profile 20V/3A(60W).
 * RTC Battery Connector + RTC Coin Battery
 * Bi-color Power Status LED
 * Arduino&trade; Leonardo-Compatible I/O :
