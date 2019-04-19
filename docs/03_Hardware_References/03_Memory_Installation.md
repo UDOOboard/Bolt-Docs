@@ -3,21 +3,22 @@ UDOO BOLT features **2x 260-pin SO-DIMM** sockets for **DDR4** memory (CN2 and C
 * Supports **4GB**, **8GB** and **16GB** DDR4 SO-DIMMs up to **maximum 32GB**.
 * Supports **1.2v DDR4-2400** DIMMs **ECC** and **non-ECC** memory with **dual channel** architecture.
 
-Make sure that you install memory modules of the same type and density in different channel DIMM slots to exploit the Dual-Channel mode.
+In order to exploit the Dual-Channel mode make sure that you install memory modules of the same type and density in different channel DIMM slots.
 
 If you want to use only 1 DIMM you can install it into either DIMM slot CN2 or slot CN3.
 If you want to use 2 DIMMs you can install it into both the DIMM slots CN2 and CN3.
 
 ### Memory Installation
 
-DDR4 and DDR3 memory modules are physically different. Please only install DDR4 DIMMs on UDOO BOLT. To make sure you have the correct DIMM, check that all the notches line up with the DDR4 DIMM slot.
+Please only install DDR4 DIMMs on UDOO BOLT. Only DDR4 are compatibles with UDOO BOLT, as there are phisical differences between DDR3 and DDR4 memory modules. Check that all the notches line up with the DDR4 DIMM slot to ensure you have the correct DIMM.
 
-To install the DIMM, follow these steps:
+Follow these steps to install the DIMM:
 * Pull both clips on either side of the slot outwards. Align the DIMM module with the slot.
-* Press modules straight down until the plastic clips close and the module fits tightly into the DIMM slot. Push clips inwards to make sure they are in place.
+* Press modules straight down until the plastic clips tick and close. Ensure that the module fits tightly into the DIMM slot. Push the clips inwards to check.
 
-To remove DIMM from a socket, gently spread the socket’s retention arms to disengage them from the DIMM.  
-Note: To avoid damaging the DIMM, do not touch its contact edge.
+DIMM removal from a socket: gently spread the socket’s retention arms to disengage them from the DIMM.  
+
+<span class="label label-warning">Heads up!</span>  Do not touch the DIMM contact edge to avoid damaging it.
 
 ### Validated DIMM modules
 
