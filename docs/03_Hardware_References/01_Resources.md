@@ -1,7 +1,12 @@
 ### UDOO BOLT Hardware and UEFI BIOS User Manual
 
 For a complete explanation of the UDOO BOLT hardware you can download the  
-* [**UDOO BOLT** Hardware and UEFI **User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
+* [**UDOO BOLT** Hardware and UEFI BIOS **User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
+
+### UDOO BOLT Get Started and Safety instruction Manual
+
+Here you can find all you need for a quick installation
+* [Get Started and Safety instruction Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
 
 ### Mechanical Drawing - 3D Design Files
 

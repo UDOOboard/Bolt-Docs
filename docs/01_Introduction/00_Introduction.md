@@ -10,7 +10,8 @@ UDOO BOLT embeds two processors:
 While the AMD Ryzen&trade; Embedded V1000 processor can run all the Windows 10 and Linux 64bit Distros you want to use as desktop PC, the Microchip ATmega32U4 allows easy access to a Arduino&reg; Leonardo environment.  
 The main AMD Ryzen&trade; processor and the ATmega32u4 microcontroller are connected togheter through an internal USB serial connection, so it is exactly like you have an Arduino&reg; Leonardo connected with a standard PC but all in small size form factor Single Board Computer.
 
-Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf) to have more complete explanation of the UDOO BOLT hardware and features.
+Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf) to have more complete explanation of the UDOO BOLT hardware and features.  
+Here you can find the [Get Started and Safety instruction Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf) for a quick installation.
 
 <hr/>
 
