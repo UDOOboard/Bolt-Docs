@@ -14,7 +14,7 @@ Please only install DDR4 DIMMs on UDOO BOLT. Only DDR4 are compatibles with UDOO
 
 Follow these steps to install the DIMM:
 * Pull both clips on either side of the slot outwards. Align the DIMM module with the slot.
-* Press modules straight down until the plastic clips tick and close. Ensure that the module fits tightly into the DIMM slot. Push the clips inwards to check.
+* Press the module straight down until the plastic clips tick and close. Ensure that the module fits tightly into the DIMM slot. Push the clips inwards to check.
 
 DIMM removal from a socket: gently spread the socket’s retention arms to disengage them from the DIMM.  
 
