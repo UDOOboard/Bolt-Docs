@@ -19,7 +19,7 @@ For more info about this SSD module you can check the [official Transcend page](
 
 To mount the SSD is necessary the following fixtures (included with the board):
 
-* 1x **M3x12mm** Screw
+* 1x **M3x4mm** Screw
 <br/>
 
 ### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5GHz + adhesive antenna
@@ -47,7 +47,8 @@ For more info about this WiFi/BT module you can check the [datasheet from the In
 
 To mount the WiFi/BT Kit the following fixtures are necessary(included with the board):
 
-* 1x **M3x8mm** Flat Head Screw
+* 1x **M3x4mm** Screw
+<br/>
 
 ### M.2 dual Ethernet Module Kit
 
@@ -61,12 +62,13 @@ When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, 
 
 To mount the M.2 dual Ethernet Module Kit the following fixtures are necessary (included with the board):
 
-* 1x **M3x12mm** Screw
-
+* 1x **M3x4mm** Screw
+<br/>
 
 #### Mounting a M.2 accessory
 
-Mount the M.2 devices with the same metal screws that you find with the board when you purchased it. If the screws are no longer available, take care to use a metal one with the same characteristics as the one supplied.
+Mount the M.2 devices with the same metal screws that you find with the board when you purchased it. If the screws are no longer available, take care to use a metal one with the same characteristics as the one supplied - M3x4mm.
+<br/>
 
 ## Displays
 
@@ -97,6 +99,7 @@ To use it just:
 <span class="label label-warning">Heads up!</span> When multiple displays are detected by your UDOO, the LCD can only be used to control the cursor on main displays. So it is proposed to set the LCD as the main display.
 
 If you're looking for more info about this screen you can check the wiki page of the manufacturer: [7inch_HDMI_LCD_(C)](https://www.waveshare.com/wiki/7inch_HDMI_LCD_(C))
+<br/>
 
 ## Cases
 
