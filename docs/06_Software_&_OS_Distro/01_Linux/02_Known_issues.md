@@ -2,6 +2,8 @@
 
 There is a **known issue** with amdgpu driver which comes with **Ubuntu 18.04 LTS** (and maybe others Linux distros). During and after OS installation it is possible that you may receive a UI after login or you may not.
 
+<span class="label label-warning">Heads up!</span> Ubuntu 18.10 "Cosmic Cuttlefish" and Ubuntu 19.04 "Disco Dingo" are not affected by this issue so you don't need to use this procedure.
+
 You can find all the references about this issue in the amdgpu Documentation (amdgpu_UserGuide) in the driver packages downloadable from the AMD official website.
 Check the [Linux Drivers](!Software_&_OS_Distro/Linux/Drivers) section to download the latest driver package.
 
