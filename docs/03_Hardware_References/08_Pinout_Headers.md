@@ -35,9 +35,37 @@ Here you can find the Embedded Controller [Microchip MEC1705 datasheet](http://w
 The **UART 0** is available at Pins *34*, *36*, *38*, *40*.  
 The **UART 1** is available at Pins *33*, *35*, *37*, *39*.  
 
+**UART 0**
 
-Accordingly to the [Microchip MEC1705 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MEC170x-Data-Sheet-DS00002206D.pdf) these are full-function Serial Port that supports the standard
-RS-232 Interface, can accessed externally by the main  the **baud rate** goes from **50** to **3000000**.
+| Pin | Function   | EC PAD |        
+|-----|------------|--------------|
+| 34  |  UART0_RX  |  UART0_RX    |
+| 36  |  UART0_TX  |  UART0_TX    |
+| 38  |  UART0_RTS |  UART0_RTS#  |
+| 40  |  UART0_CTS |  UART0_CTS#  |
+
+**UART 1**
+
+| Pin | Function   | EC PAD |        
+|-----|------------|--------------|
+| 33  |  UART1_RX  |  UART1_RX    |
+| 35  |  UART1_TX  |  UART1_TX    |
+| 37  |  UART1_RTS |  UART1_RTS#  |
+| 39  |  UART1_CTS |  UART1_CTS#  |
+
+Accordingly to the [Microchip MEC1705 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MEC170x-Data-Sheet-DS00002206D.pdf) these are full-function Serial Port that supports the standard RS-232 Interface. The **baud rate** goes from **50** to **3000000**.
+
+The UARTs are directly propagated to the OS as *Legacy UART* so you can already interact with they.
+
+#### UARTs on Linux
+
+On Linux the UARTs are seen as standard *tty* devices. The addresses are set by default to *0x3f8* and *0x2f8*.  
+
+You should find the UARTs available on the devices `/dev/ttyS0` and `/dev/ttyS1` on Ubuntu with a baudrate of **115200**.  
+The device name assigned by the Linux Distro you are using can change, you can check the name assigned  running the command:
+
+    dmesg | grep tty
+
 
 
 ## I2C 1 and I2C 2
@@ -47,14 +75,14 @@ The [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) (Inter-IC) bus is a bi-directi
 The **I2C 1** is available at Pins *8*, *10*.  
 The **I2C 2** is available at Pins *7*, *9*.
 
-**I2C1**
+**I2C 1**
 
 | Pin | Function  | EC PAD |        
 |-----|-----------|---------------|
 | 8   |  I2C1_SCL |  I2C08_SCL    |
 | 10  |  I2C1_SDA |  I2C08_SDA    |
 
-**I2C2**
+**I2C 2**
 
 | Pin | Function  | EC PAD |
 |-----|-----------|---------------|
