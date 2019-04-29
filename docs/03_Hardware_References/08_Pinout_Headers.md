@@ -66,7 +66,11 @@ The device name assigned by the Linux Distro you are using can change, you can c
 
     dmesg | grep tty
 
+#### UARTs on Windows 10
 
+On Windows the UARTs are seen as standard *COM* devices. The addresses are set by default to *0x3f8* and *0x2f8*.  
+
+You should find the UARTs available on the devices `COM1` and `COM2` on Windows 10.
 
 ## I2C 1 and I2C 2
 
