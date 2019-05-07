@@ -30,8 +30,7 @@ If you don't need the AMD drivers you can set the fix the `nomodeset` boot optio
 
 ## eMMC Installations
 
-Unfortunately, the AMD eMMC Driver is not in the main line Kernel so you will not able to install a Linux distribution.   
-For this reason if you try to install a Linux distribution on the eMMC memory of the UDOO BOLT it will not be seen or an error will return.
+Unfortunately, the AMD eMMC Driver for the Ryzen v1000 embedded series processors is not in the main line Linux Kernel, so you will not able to install a standard Linux distribution on the eMMC onboard the UDOO BOLT without a little tweaks.
 
 To install Linux on the eMMC a kernel patch released by AMD is needed.
 
