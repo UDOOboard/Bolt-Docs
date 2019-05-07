@@ -50,7 +50,7 @@ In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can
 
 If you want to fix the amdgpu driver issue installing the [AMD kernel and drivers](!Software_&_OS_Distro/Linux/Drivers) you have to take into account that the binaries released by AMD do not integrate the eMMC support patch into the kernel, so once installed you'll find again the eMMC error in the boot that does not allow you to use the OS.
 
-We then recompiled the kernel amd sources contained in the driver package by adding the patch for eMMC support and you can download them here:  
+We then recompiled the AMD kernel source contained in the driver package by adding the patch for eMMC support and you can download them here:  
 [udoo_bolt_linux-4.19.8_amd64_amdgpu_emmc.tar.gz](http://download.udoo.org/files/UDOO_BOLT/tools/udoo_bolt_linux-4.19.8_amd64_amdgpu_emmc.tar.gz)  
 SHA1SUM: *bd546f5497069ce35af5c18112ebd0f314fa6115 udoo_bolt_linux-4.19.8_amd64_amdgpu_emmc.tar.gz*
 
