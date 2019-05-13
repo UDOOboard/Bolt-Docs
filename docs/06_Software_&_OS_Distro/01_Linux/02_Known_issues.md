@@ -32,19 +32,18 @@ If you don't need the AMD drivers you can set the fix the `nomodeset` boot optio
 
 Unfortunately, the AMD eMMC Driver for the Ryzen v1000 embedded series processors is not in the main line Linux Kernel, so you will not able to install a standard Linux distribution on the eMMC onboard the UDOO BOLT without a little tweaks.
 
-To install Linux on the eMMC a kernel patch released by AMD is needed.
+To install Linux on the eMMC a kernel patch released by AMD is needed.  
+The package released by AMD guide you through a creation of a *Ubuntu 18.04.1* installation image .iso file with the Linux Kernel *4.15.18* patched to support the AMD eMMC driver (you can find the patch package at the end of this section).
 
-The package released by AMD guide you through a creation of a *Ubuntu 18.04.1* installation image .iso file with the Linux Kernel *4.15.18* patched to support the AMD eMMC driver.
-
-We already followed the guide and created a custom installable .iso with the AMD eMMC support to allow you to install Ubuntu 18.04.1 LTS on the eMMC of the UDOO BOLT.
-
-You can download the custom image file here: [**Ubuntu 18.04.1 UDOO BOLT eMMC installer image**](http://download.udoo.org/files/UDOO_BOLT/Ubuntu/ubuntu-18.04.1.bolt_emmc.zip)  
+We already followed the guide and created a custom installable .iso with the AMD eMMC support to allow you to install **Ubuntu 18.04.1 LTS** on the **eMMC** of the UDOO BOLT.
+You can download the custom image file here:  
+[**Ubuntu 18.04.1 - UDOO BOLT eMMC installer image**](http://download.udoo.org/files/UDOO_BOLT/Ubuntu/ubuntu-18.04.1.bolt_emmc.zip)  
 SHA1SUM: *6aa0c46436945074b571aae37a5923fcb4c02def  ubuntu-18.04.1.bolt_emmc.zip*
-
-<span class="label label-warning">Heads up!</span> We suggest to use [Rufus](https://rufus.ie/) to create the bootable USB drive or a valid Linux alternative. Seems that *Startup Disk Creator* of Ubuntu doesn't create the bootable USB drive from this image properly.
 
 Once you have downloaded the image you need to extract it from the .zip file and create a bootable USB drive.  
 In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide on how to install a Linux distro, the example is based on the Ubuntu OS.
+
+<span class="label label-warning">Heads up!</span> We suggest to use [Rufus](https://rufus.ie/) to create the bootable USB drive or a valid Linux alternative. Seems that *Startup Disk Creator* of Ubuntu doesn't create the bootable USB drive from this image properly.
 
 <span class="label label-warning">Heads up!</span> Unfortunately, the image created following the AMD guide to apply the eMMC patch does not take into account the previous problem with AMD amdgpu graphics drivers, so you also need to follow the previous section with the `nomodeset` procedure to install the OS and use it.
 
@@ -62,3 +61,7 @@ Summing up, the right procedure to have a proper working OS with eMMC support an
 * Reboot the OS (you'll probably need again to use the `nomodeset` parameter) and install the [AMD kernel and drivers 4.19.8](!Software_&_OS_Distro/Linux/Drivers) with the official AMD package using the binaries.
 * Install the custom *kernel 4.19.8* you can find above.
 * Reboot the system with the new kernel.
+
+If you want to create a distro integrating by your own the AMD eMMC patch for the Ryzen v1000 processors series in the Linux Kernel you can download this package released by AMD:  
+[emmc_v1000_patch.zip](http://download.udoo.org/files/UDOO_BOLT/tools/emmc_v1000_patch.zip)
+SHA1SUM: *6FB569D462701E16F70405BC107CE0F91C87F26C  emmc_v1000_patch.zip*
