@@ -63,5 +63,5 @@ Summing up, the right procedure to have a proper working OS with eMMC support an
 * Reboot the system with the new kernel.
 
 If you want to create a distro integrating by your own the AMD eMMC patch for the Ryzen v1000 processors series in the Linux Kernel you can download this package released by AMD:  
-[emmc_v1000_patch.zip](http://download.udoo.org/files/UDOO_BOLT/tools/emmc_v1000_patch.zip)
+[emmc_v1000_patch.zip](http://download.udoo.org/files/UDOO_BOLT/tools/emmc_v1000_patch.zip)  
 SHA1SUM: *6FB569D462701E16F70405BC107CE0F91C87F26C  emmc_v1000_patch.zip*
