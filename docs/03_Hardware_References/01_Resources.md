@@ -6,7 +6,7 @@ For a complete explanation of the UDOO BOLT hardware you can download the
 ### UDOO BOLT Get Started and Safety instruction Manual
 
 Here you can find all you need for a quick installation
-* [Get Started and Safety instruction Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
+* [Get Started and Safety instruction Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_get_started_v1.3.pdf)
 
 ### Mechanical Drawing - 3D Design Files
 
