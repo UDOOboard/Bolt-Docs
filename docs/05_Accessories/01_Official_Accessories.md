@@ -108,7 +108,7 @@ If you're looking for more info about this screen you can check the wiki page of
 [Buy it from the shop](link coming soon)
 
 A beautiful metal case for your UDOO BOLT.  
-<span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat itself, but it allow the airflow to dissipate the board properly using the processor fan.
+<span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat itself, but it allows the airflow to dissipate the board properly using the processor fan.
 
 Check the [mechanical drawing](http://download.udoo.org/files/UDOO_BOLT/mechanical_specs/UDOO_BOLT_metal_case_drawings.pdf) to see the case dimensions.
 
@@ -147,7 +147,7 @@ UDOO BOLT METAL CASE includes:
 <br/>
 <br/>
 
-The case also features two holes, in the back side, for connecting externally the WiFi and BT antennas of the M.2 module through a RP-SMA connector.  
+The case also features two holes in the back side, to connect the WiFi externally and BT antennas of the M.2 module through a RP-SMA connector.
 For example you can use 2x U.FL/IPEX to RP-SMA cables and 2x RP-SMA antennas like in the following image.  
 <span class="label label-warning">Heads up!</span> These items are not included.  
 

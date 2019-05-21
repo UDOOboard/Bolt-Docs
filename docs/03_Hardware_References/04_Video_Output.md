@@ -32,5 +32,5 @@ The configuration of this interface in DP or HDMI/DVI mode is automatic.
 Maximum resolution:
 * 4096x2160 @ 60Hz
 
-In the market, you can find USB-C Touch Displays and with a single USB-C cable power the display, send the video signal and receive the touch signal.
+In the market, you can find USB-C Touch Displays with a single USB-C cable to power the display, send the video signal and receive the touch signal.
 In addition, there are displays that provide power via USB-C. Once the display is connected to a standard power supply, they allow the UDOO BOLT to be powered by a single USB-C cable and receive the video signal.

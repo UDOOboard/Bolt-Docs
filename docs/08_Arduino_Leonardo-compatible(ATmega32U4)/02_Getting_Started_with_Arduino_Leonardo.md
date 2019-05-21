@@ -1,7 +1,7 @@
 
 To start programming the Arduino&reg; Leonardo-compatible embedded microcontroller of the UDOO BOLT you need the `Arduino IDE` or the `Arduino Web IDE`.
 
-You can refer the [Arduino Leonardo](https://www.arduino.cc/en/Main/Arduino_BoardLeonardo) page and the [Getting Started with the Arduino Leonardo](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro) page of the Arduino&reg; website.  
+You can refer to the [Arduino Leonardo](https://www.arduino.cc/en/Main/Arduino_BoardLeonardo) page and the [Getting Started with the Arduino Leonardo](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro) page on Arduino&reg;'s website.  
 
 The getting started Arduino page will guide you through the installation of the IDE, Drivers, first example and everything you need to program the Arduino Leonardo and how to use the pinout.  
 You can also find useful tutorials and a "please read..." section.
@@ -14,6 +14,6 @@ Usually, you should find the Arduino Leonardo-compatible in the `COM3` in **Wind
 ## Linux known issues
 
 Some Linux distributions need to be configured to gain upload permissions to the user.  
-If you found some difficulty in uploading the Arduino sketch(firmware) thruogh the Arduino IDE you can try to add your Linux user to the `dialout` group with this command:
+If you find some complications in uploading the Arduino sketch(firmware) through the Arduino IDE try to add your Linux user to the `dialout` group with this command:
 
     sudo adduser $USER dialout

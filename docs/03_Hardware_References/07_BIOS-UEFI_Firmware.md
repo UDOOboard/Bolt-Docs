@@ -1,6 +1,6 @@
-UDOO BOLT is supplied with a [American Megatrends International LLC(AMI)](https://ami.com/en/products/) BIOS/UEFI Firmware.
+UDOO BOLT is supplied with [American Megatrends International LLC(AMI)](https://ami.com/en/products/)'s BIOS/UEFI Firmware.
 
-If you are looking for how to update UEFI Firmware go to the [BIOS-UEFI update](!/Advanced_Topics/BIOS-UEFI_update) section.
+If you are looking for a way to update UEFI Firmware go to the [BIOS-UEFI update](!/Advanced_Topics/BIOS-UEFI_update) section.
 
 It is possible to access to AMI Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase.
 

@@ -6,9 +6,9 @@ We suggest to always use a **64-bit** Windows 10 version.
 
 <span class="label label-warning">Heads up!</span> Please notice that usually you need a 64-bit OS version to exploit more than 4GB of RAM. Total amount of memory available with a 32-bit OS depends on the OS itself (less than 4GB, however). If you installed more than 4GB, please use a 64-bit version of Windows 10.
 
-In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install Windows, the example is based on Windows® 10 64-bit.
+In the [Getting Started](https://www.udoo.org/get-started-x86/)  you can find a guide on how to install Windows, the example is based on Windows® 10 64-bit.
 
-<span class="label label-warning">Heads up!</span> The AMD processors of the UDOO BOLT are released only few time ago so we suggest to keep always updated the Windows&reg; 10 64-bit version installed and the AMD drivers to have all the features working properly.
+<span class="label label-warning">Heads up!</span> The AMD processors of the UDOO BOLT were released recently so we suggest to always keep updated Windows® 10 64-bit version and the AMD drivers to insure all features work properly.
 
 In order to download the latest stable updated versions of the **AMD Ryzen&trade; drivers for the v1000 Embedded Series processors** you can visit this page: [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000).  
 You can also reach this page by the standard [AMD Support page](https://www.amd.com/en/support) choosing the menu entries *Embedded -> AMD Ryzen&trade; Embedded V-series Processors -> V-Series V1000*.  

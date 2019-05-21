@@ -30,7 +30,7 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 
 * [**openSUSE**](http://www.opensuse.org/en/) / [**SUSE Linux Enterprise**](https://www.suse.com/) openSUSE is a community-created Linux distribution sponsored by Novell. Novell purchased SuSE Linux in 2003, and they still create an enterprise Linux project known as SUSE Linux Enterprise. Where Red Hat has the Fedora project that feeds into Red Hat Enterprise Linux, Novell has the openSUSE project that feeds into SUSE Linux Enterprise.
 
-* [**Mageia**](https://www.mageia.org/en/) / [**Mandriva**](http://www.mandriva.com/en/) Mageia is a fork of Mandriva Linux created in 2011. Mandriva — known as Mandrake before that — was once one of the great user-friendly Linux distributions.
+* [**Mageia**](https://www.mageia.org/en/) and [**Mandriva**](http://www.mandriva.com/en/) Mageia is a fork of Mandriva Linux created in 2011. Mandriva — known as Mandrake before that — was once one of the great user-friendly Linux distributions.
 
 * [**Slackware Linux**](http://www.slackware.com/) is another institution. Founded in 1993, Slackware is the oldest Linux distribution that’s still maintained and putting out new releases today.
 

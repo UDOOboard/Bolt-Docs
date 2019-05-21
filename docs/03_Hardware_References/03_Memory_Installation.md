@@ -10,7 +10,7 @@ If you want to use 2 DIMMs you can install it into both the DIMM slots CN2 and C
 
 ### Memory Installation
 
-Please only install DDR4 DIMMs on UDOO BOLT. Only DDR4 are compatibles with UDOO BOLT, as there are phisical differences between DDR3 and DDR4 memory modules. Check that all the notches line up with the DDR4 DIMM slot to ensure you have the correct DIMM.
+Please only install DDR4 DIMMs on UDOO BOLT. Only DDR4 are compatibles with UDOO BOLT, as there are physical differences between DDR3 and DDR4 memory modules. Check that all the notches line up with the DDR4 DIMM slot to ensure you have the correct DIMM.
 
 Follow these steps to install the DIMM:
 * Pull both clips on either side of the slot outwards. Align the DIMM module with the slot.

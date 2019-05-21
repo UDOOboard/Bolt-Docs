@@ -1,10 +1,10 @@
-UDOO BOLT is supplied with a [American Megatrends International LLC(AMI)](https://ami.com/en/products/) BIOS/UEFI Firmware.
+UDOO BOLT is supplied with [American Megatrends International LLC(AMI)](https://ami.com/en/products/)'s BIOS/UEFI Firmware.
 
-It is possible to access to AMI Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase.
+It is possible to access the AMI Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase.
 
 ## UEFI Update utility
 
-At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily updates flash devices with new BISO/UEFI Firmware version.
+At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update flash devices with the new BISO/UEFI Firmware version.
 
 [UEFI BIOS Firmware + Update Utility Tool]()
 Coming Soon
@@ -25,7 +25,7 @@ The package contains:
 
 Follow the procedure in the .pdf file to update the BIOS/UEFI BIOS firmware using Windows, EFI shell or Linux running on your UDOO BOLT.
 
-<span class="label label-warning">Heads up!</span> Remember that update the BIOS/UEFI firmware will revert the saved configuration to Factory Default.
+<span class="label label-warning">Heads up!</span> Remember that updating the BIOS/UEFI firmware will revert the saved configuration to Factory Default.
 
 Please be aware that using **Windows** programmer, it must be run in a Prompt CMD shell with Administrator privileges.
 

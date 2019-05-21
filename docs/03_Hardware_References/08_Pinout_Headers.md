@@ -1,11 +1,11 @@
 **UDOO BOLT** features two pinout headers (dual-row 40 Pins), one on the top(CN24) and another on the bottom(CN25) of the board.
 
 * **CN24** - *Top*: The pin header connector on the top of the board is connected to the **ATmega32U4** microcontroller (**Arduino&reg; Leonardo-compatible**). Check the [Arduino Leonardo-compatible(ATmega32U4) Pinout](!/Arduino_Leonardo-compatible(ATmega32U4)/Pinout) section to know how to use it through the Arduino&reg; programming.
-* **CN25** - *Bottom*: The pin header connector on the bottom of the board is connected to the **Embedded Controller(MEC1705)**. The EC is used to manage some functionalities of the board like the fan management, the wake up of the Ryzen&trade; processor from the Arduino microcontroller and others. The EC manage also the buses exposed in the CN25 pinout header like UART, I2C, etc. and these are usable from the main AMD Ryzen&trade; processor.
+* **CN25** - *Bottom*: The pin header connector on the bottom of the board is connected to the **Embedded Controller(MEC1705)**. The EC is used to manage some functionalities of the board like the fan management, the wake up of the Ryzen&trade; processor and others. The EC also manages the exposed buses in the CN25 pinout header like UART, I2C, etc. and these are usable from the main AMD Ryzen™ processor.
 
 <a href="../img/bolt_pinout_complete.png" target="_blank"><img style="width:600px; " src="../img/bolt_pinout_complete.png"></a>_
 
-Since the Arduino Pinout connector (CN24) is fully described in the [dedicated section](!/Arduino_Leonardo-compatible(ATmega32U4)/Pinout), we describe only the pinout header of the EC (CN25) in this page.
+Since the Arduino Pinout connector (*CN24*) is fully described in the [dedicated section](!/Arduino_Leonardo-compatible(ATmega32U4)/Pinout), we describe only the pinout header of the EC (*CN25*) in this page.
 <br/>
 <br/>
 <br/>

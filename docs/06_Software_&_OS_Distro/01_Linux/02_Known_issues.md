@@ -19,7 +19,7 @@ Procedure to add `nomodeset` to grub:
 * Find the line which ends with `quiet splash` and add `nomodeset` in front of it. So it becomes `nomodeset quiet splash`. Whatever is there in front of it leave it as it is just add `nomodeset` in front of `quiet splash`.
 * Press Ctrl+X or F10 to boot with this new parameter.
 
-You can check [this post](https://askubuntu.com/questions/38780/how-do-i-set-nomodeset-after-ive-already-installed-ubuntu/38782#38782) or [this other](https://askubuntu.com/questions/1029624/ubuntu-18-04-live-boot-leads-to-blank-screen) to see an image that will let better understand where to put the `nomodeset` parameter.
+You can check [this post](https://askubuntu.com/questions/38780/how-do-i-set-nomodeset-after-ive-already-installed-ubuntu/38782#38782) or [this other post](https://askubuntu.com/questions/1029624/ubuntu-18-04-live-boot-leads-to-blank-screen) to see an image that will let better understand where to put the `nomodeset` parameter.
 
 Editing the grub like this is just a temporary fix, you probably will need to repeat the procedure after the installation to boot the system.  
 
@@ -30,10 +30,10 @@ If you don't need the AMD drivers you can set the fix the `nomodeset` boot optio
 
 ## eMMC Installations
 
-Unfortunately, the AMD eMMC Driver for the Ryzen v1000 embedded series processors is not in the main line Linux Kernel, so you will not able to install a standard Linux distribution on the eMMC onboard the UDOO BOLT without a little tweaks.
+Unfortunately, the AMD eMMC Driver for the Ryzen v1000 embedded series processors is not in the main line Linux Kernel, so you will not able to install a standard Linux distribution on the eMMC onboard the UDOO BOLT without some tweaks.
 
 To install Linux on the eMMC a kernel patch released by AMD is needed.  
-The package released by AMD guide you through a creation of a *Ubuntu 18.04.1* installation image .iso file with the Linux Kernel *4.15.18* patched to support the AMD eMMC driver (you can find the patch package at the end of this section).
+The package released by AMD is going to guide you through a creation of a *Ubuntu 18.04.1* installation image .iso file with the Linux Kernel *4.15.18* patched to support the AMD eMMC driver(you can find the patch package at the end of this section).
 
 We already followed the guide and created a custom installable .iso with the AMD eMMC support to allow you to install **Ubuntu 18.04.1 LTS** on the **eMMC** of the UDOO BOLT.
 You can download the custom image file here:  
