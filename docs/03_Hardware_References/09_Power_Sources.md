@@ -3,7 +3,7 @@ You can power up the board in 2 ways:
 * **19V DC Power Jack** min 3.15A (60W) for basic functionalities.
 * 2x **USB Type-C** power in. PD sink profile 20V/3A(60W).
 
-A bicolour Green/Yellow LED is placed near the DC IN power jack (CN5) to signal the power state of the board.
+A bicolour Green/Yellow LED is placed near the DC IN power jack (CN5) to signal the power state of the board.  
 When the board is powered but turned off, then the LED turns on Yellow, during normal working (S0 State) the LED turns on Green light.
 
 ## DC Power Jack
@@ -20,6 +20,6 @@ This voltage can be supplied through a DC power jack (CN5).
 
 ## USB Type-C
 
-The Board can also be powered by using a standard **USB-C** power adapter thanks the Power Delivery in Sink mode.
-You can use either one of the two USB Type-C connectors (CN8, CN9).
+The Board can also be powered by using a standard **USB-C** power adapter thanks the Power Delivery in Sink mode.  
+You can use either one of the two USB Type-C connectors (CN8, CN9).  
 The PD Sink power profile is **20V 3A**.
