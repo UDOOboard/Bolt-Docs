@@ -25,7 +25,7 @@ Here you can find the [Get Started and Safety instruction Manual](http://downloa
 * Avoid handling the warm and moving parts (like the fan) and generally the printed circuit board while it is powered.
 * Only handle by the edges to minimise the risk of electrostatic discharge damage.
 * Take care whilst handling to avoid mechanical or electrical damage to the printed circuit board and connectors. Also use a grounded wrist strap or touch a safely grounded object before you handle components.
-* Never provide more than 5V in input to the GPIOs of the Arduino Leonardo(Atmel&reg; ATmega32U4), and never provide more than 3.3V in input to the GPIOs of the Embedded Controller.
+* Never provide more than 5V in input to the GPIOs of the Arduino Leonardo-compatible(Atmel&reg; ATmega32U4), and never provide more than 3.3V in input to the GPIOs of the Embedded Controller.
 * Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO BOLT board with the risk of damage.
 * The most important safety rule of all: **Always Be Careful! (ABC)**
 
@@ -51,7 +51,7 @@ Check the [Board Versions](!Hardware_References/Board_versions) section to see t
   * AMD Radeon™ Vega 3 Graphics - 3 GPU Compute Units (V3 version)
 * RAM:
   * 2x Slot SO-DIMM Dual-channel 64-bit DDR4 2400 MT/s with ECC support up to 32GB
-* Atmel&reg; ATmega32U4 8-bit AVR RISC-based microcontroller.
+* Microchip ATmega32U4 8-bit AVR RISC-based microcontroller.
 * Video interfaces:
   * 2x HDMI 1.4/2.0a
   * 2x USB Type-C (DP alternate mode)

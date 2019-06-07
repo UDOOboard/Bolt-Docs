@@ -39,8 +39,8 @@
 | <img src="../img/icons/processor.png" height="20px" width="20px">        | Microcontroller  | Atmel&reg; ATmega32U4 module                                     |
 | <img src="../img/icons/other.png" height="20px" width="20px">            | Other Interfaces | SPI Flash JTAG connector                                         |
 | <img src="../img/icons/arduino.png" height="20px" width="20px">          | Arduino Pinout   | Easy to use with a custom 2 rows pinout<br>Expandable with I/O shield to have the standard Arduino Pinour R3 |
-| <img src="../img/icons/pins.png" height="20px" width="20px">             | Digital I/O Pins | up to 23x digital input/output (7 PWM)                          |
+| <img src="../img/icons/pins.png" height="20px" width="20px">             | Digital I/O Pins | up to 23x digital input/output (7 PWM)                           |
 | <img src="../img/icons/pins.png" height="20px" width="20px">             | Analog I/O Pins  | 12 (10 Bits of resolution)                                       |
 
 
-<span class="label label-warning">Heads up!</span> The communication between the AMD Ryzen™ Embedded V1000 SOC and the Atmel&reg; ATmega32U4 module comes through a USB interface, exactly like an Arduino&trade; Leonardo board connects to an external PC.  
+<span class="label label-warning">Heads up!</span> The communication between the AMD Ryzen™ Embedded V1000 SOC and the Microchip ATmega32U4 module comes through a USB interface, exactly like an Arduino&trade; Leonardo board connects to an external PC.  
