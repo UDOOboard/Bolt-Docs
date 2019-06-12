@@ -14,6 +14,8 @@ Usually, you should find the Arduino Leonardo-compatible in the `COM3` in **Wind
 ## Linux known issues
 
 Some Linux distributions need to be configured to gain upload permissions to the user.  
-If you find some complications in uploading the Arduino sketch(firmware) through the Arduino IDE try to add your Linux user to the `dialout` group with this command:
+If you find some complications in uploading the Arduino sketch(firmware) through the Arduino IDE, try to add your Linux user to the `dialout` group with this command:
 
-    sudo adduser $USER dialout
+    sudo usermod -a -G dialout <username>
+
+where `<username>` is your Linux user name. **You will need to log out and log in again for this change to take effect**.
