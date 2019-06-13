@@ -13,9 +13,27 @@ Usually, you should find the Arduino Leonardo-compatible in the `COM3` in **Wind
 
 ## Linux known issues
 
-Some Linux distributions need to be configured to gain upload permissions to the user.  
+### User permissions
+
+Some Linux distributions need to be configured to gain upload permissions to the user to the Arduino tty port.  
 If you find some complications in uploading the Arduino sketch(firmware) through the Arduino IDE, try to add your Linux user to the `dialout` group with this command:
 
-    sudo usermod -a -G dialout <username>
+    sudo usermod -a -G tty <yourUserName>
+    sudo usermod -a -G dialout <yourUserName>
 
-where `<username>` is your Linux user name. **You will need to log out and log in again for this change to take effect**.
+where `<yourUserName>` is your Linux user name. **You will need to log out and log in again for this change to take effect**.
+
+### Sketch upload - ModemManager conflict
+
+If you have issues when trying to upload a sketch on the Arduino Leonardo-compatible ATmega32U4 of UDOO BOLT you probably have a conflict with the program **ModemManager** (installed by default on many Linux distros like Ubuntu).
+
+Modem Manager tries to open any serial port (ttyACM0 of the Arduino Leonardo included) checking if it's a modem and this usually creates conflicts with the upload mechanism.
+
+If you have installed *ModemManager* on your Linux you can try to disable or uninstall it (https://askubuntu.com/questions/216114/how-can-i-remove-modem-manager-from-boot)
+
+Since you probably don't have a modem on your UDOO BOLT you can safely uninstall the package to solve the issue or disable it running the commands:
+
+    sudo systemctl stop ModemManager.service
+    sudo systemctl disable ModemManager.service
+
+After this procedure, you should be able to proceed normally and upload the sketch to your board or use the Serial Monitor.
