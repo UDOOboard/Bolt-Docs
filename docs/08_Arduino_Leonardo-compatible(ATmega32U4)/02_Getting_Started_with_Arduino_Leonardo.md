@@ -37,3 +37,5 @@ Since you probably don't have a modem on your UDOO BOLT you can safely uninstall
     sudo systemctl disable ModemManager.service
 
 After this procedure, you should be able to proceed normally and upload the sketch to your board or use the Serial Monitor.
+
+The solution of this issue was found in [this thread](https://forum.arduino.cc/index.php?topic=129647.msg2378141#msg2378141) of the Arduino Forum.
