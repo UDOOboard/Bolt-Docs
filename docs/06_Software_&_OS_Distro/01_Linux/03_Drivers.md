@@ -1,4 +1,4 @@
-In order to download the latest stable updated version of the **AMD Ryzen&trade; drivers for the v1000 Embedded Series processors** you can visit this page: [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000).  
+In order to download the latest stable updated version of the **AMD Ryzen&trade; drivers for the v1000 Embedded Series processors** you can visit this page: [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000-radeon-vega-graphics).  
 You can also reach this page from the standard [AMD Support page](https://www.amd.com/en/support) choosing the menu entries *Embedded -> AMD Ryzen&trade; Embedded V-series Processors -> V-Series V1000*.  
 The OS supported by these drivers in the *Linux x86_64* version is **Ubuntu 18.04.1 LTS**.  
 
