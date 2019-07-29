@@ -7,7 +7,7 @@ It is possible to access the AMI Setup Utility by pressing the escape key (`ESC`
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
   <span class="sr-only">Warning!</span>
-  Warning: Please do NOT "play" with the BIOS-UEFI Firmware menu choices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the BIOS-UEFI Firmware again to revert this condition. If you stumbling upon this case take a look at the **Restore Factory configuration** section below.
+  Warning: Please do NOT "play" with the BIOS-UEFI Firmware menu choices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the BIOS-UEFI Firmware again to revert this condition. If you stumbling upon this case take a look at the <i>Restore Factory configuration</i> section below.
 </div>
 
 <span class="label label-warning">Heads up!</span> Since some resolutions or monitors are not managed well by the firmware, if you get a black screen when you try to enter in one of the UEFI Firmware Setup Utility Menu options, try using another Display with a 1920x1080 resolution (HDMI or DisplayPort) or a different cable.  
@@ -28,9 +28,9 @@ You can restore the factory default settings also from within the BIOS/UEFI sett
 
 <span class="label label-warning">Heads up!</span> Updating the BIOS/UEFI to a newer version will also restore the new factory default configuration.
 
-# UEFI Update utility
+# BIOS/UEFI Update
 
-At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update flash devices with the new BISO/UEFI Firmware version.
+At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update flash devices with the new BIOS/UEFI Firmware version.
 
 [UEFI BIOS Firmware + Update Utility Tool]()
 Coming Soon
