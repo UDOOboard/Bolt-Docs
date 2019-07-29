@@ -1,8 +1,6 @@
 UDOO BOLT is supplied with [American Megatrends International LLC(AMI)](https://ami.com/en/products/)'s BIOS/UEFI Firmware.
 
-If you are looking for a way to update UEFI Firmware go to the [BIOS-UEFI update](!/Advanced_Topics/BIOS-UEFI_update) section.
-
-It is possible to access to AMI Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase.
+It is possible to access the AMI Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase.
 
 <span class="label label-warning">Heads up!</span> Some wireless or mechanical keyboards that doesn't respect the standard USB HID protocol could doesn't work in the UEFI BIOS Firmware menu. Regarding the wireless keyboards we tested these that are proper working also in the UEFI BIOS menu: [Logitech k400r](http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r), [Logitech k400 plus](http://www.logitech.com/product/wireless-touch-keyboard-k400-plus), [Microsoft All-in-One Media Keyboard](https://www.microsoft.com/accessories/products/keyboards/all-in-one-media-keyboard/n9z-00013).
 
@@ -29,3 +27,37 @@ During normal use, the contact MUST be always placed in 2-3 position.
 You can restore the factory default settings also from within the BIOS/UEFI settings pressing the **F9** key.
 
 <span class="label label-warning">Heads up!</span> Updating the BIOS/UEFI to a newer version will also restore the new factory default configuration.
+
+# UEFI Update utility
+
+At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update flash devices with the new BISO/UEFI Firmware version.
+
+[UEFI BIOS Firmware + Update Utility Tool]()
+Coming Soon
+
+The package contains:
+* Latest UEFI Firmware binary
+  * Firmware name:
+  * BIOS version:  1.04
+  * Release Date:  
+  * SHA1 .zip file:  
+* Update Utility Tool
+  * EFI shell programming utility
+  * Windows 32-bit BIOS programmer
+  * Windows 64-bit BIOS programmer
+  * Linux 32-bit programmer
+  * Linux 64-bit programmer
+* Update procedure documentation (.pdf)
+
+Follow the procedure in the .pdf file to update the BIOS/UEFI BIOS firmware using Windows, EFI shell or Linux running on your UDOO BOLT.
+
+<span class="label label-warning">Heads up!</span> Remember that updating the BIOS/UEFI firmware will revert the saved configuration to Factory Default.
+
+Please be aware that using **Windows** programmer, it must be run in a Prompt CMD shell with Administrator privileges.
+
+Using **Linux** programmer, *gcc compiler* and *Kernel-headers* are needed and every operation must be done with root/administrator privileges.  
+Linux versions used for the test:
+* Ubuntu 16.04 - 16.10 - 18.04 - 18.10
+* Debian 8.5 - 9
+* Fedora 24
+* Opensuse 42
