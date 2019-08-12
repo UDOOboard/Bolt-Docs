@@ -14,7 +14,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO
 Here you can find the [Get Started and Safety instruction Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_get_started_v1.3.pdf) for a quick installation.
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-If you have any trouble uploading the Arduino sketch running Linux, check the <a href="../Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html">Getting Started with Arduino Leonardo</a> section.
+If you find any problem in the proper working of UDOO BOLT you can check the <a href="../Troubleshooting/index.html">Troubleshooting</a> page.
 </p>
 
 <hr/>
