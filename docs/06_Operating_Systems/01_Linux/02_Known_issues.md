@@ -5,7 +5,7 @@ There is a **known issue** with amdgpu driver which comes with **Ubuntu 18.04 LT
 <span class="label label-warning">Heads up!</span> Ubuntu 18.10 "Cosmic Cuttlefish" and Ubuntu 19.04 "Disco Dingo" are not affected by this issue so you don't need to use this procedure.
 
 You can find all the references about this issue in the amdgpu Documentation (amdgpu_UserGuide) in the driver packages downloadable from the AMD official website.
-Check the [Linux Drivers](!Software_&_OS_Distro/Linux/Drivers) section to download the latest driver package.
+Check the [Linux Drivers](!Operating_Systems/Linux/Drivers) section to download the latest driver package.
 
 If you experience this problem during the installation of Ubuntu 18.04 LTS follow the instructions below
 
@@ -23,7 +23,7 @@ You can check [this post](https://askubuntu.com/questions/38780/how-do-i-set-nom
 
 Editing the grub like this is just a temporary fix, you probably will need to repeat the procedure after the installation to boot the system.  
 
-After you've installed Ubuntu 18.04 LTS you can install the AMD drivers following the [Linux Drivers](!Software_&_OS_Distro/Linux/Drivers) section, to have a proper working system.
+After you've installed Ubuntu 18.04 LTS you can install the AMD drivers following the [Linux Drivers](!Operating_Systems/Linux/Drivers) section, to have a proper working system.
 
 If you don't need the AMD drivers you can set the fix the `nomodeset` boot option permanently so that you don't have to go through this manual procedure again following the instructions in [this post](https://askubuntu.com/a/38782/88802).
 
@@ -47,7 +47,7 @@ In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can
 
 <span class="label label-warning">Heads up!</span> Unfortunately, the image created following the AMD guide to apply the eMMC patch does not take into account the previous problem with AMD amdgpu graphics drivers, so you also need to follow the previous section with the `nomodeset` procedure to install the OS and use it.
 
-If you want to fix the amdgpu driver issue installing the [AMD kernel and drivers](!Software_&_OS_Distro/Linux/Drivers) you have to take into account that the binaries released by AMD do not integrate the eMMC support patch into the kernel, so once installed you'll find again the eMMC error in the boot that does not allow you to use the OS.
+If you want to fix the amdgpu driver issue installing the [AMD kernel and drivers](!Operating_Systems/Linux/Drivers) you have to take into account that the binaries released by AMD do not integrate the eMMC support patch into the kernel, so once installed you'll find again the eMMC error in the boot that does not allow you to use the OS.
 
 We then recompiled the AMD kernel source contained in the driver package by adding the patch for eMMC support and you can download them here:  
 [udoo_bolt_linux-4.19.8_amd64_amdgpu_emmc.tar.gz](http://download.udoo.org/files/UDOO_BOLT/tools/udoo_bolt_linux-4.19.8_amd64_amdgpu_emmc.tar.gz)  
@@ -58,7 +58,7 @@ Extract the package and install the custom kernel using the command `dpkg -i` wi
 Summing up, the right procedure to have a proper working OS with eMMC support and amdgpu support is this one:
 * Download the *Ubuntu 18.04.1 UDOO BOLT eMMC installer image* and create a USB installation bootable drive with Rufus or similar.
 * Install *Ubuntu 18.04.1* using the `nomodeset` parameter at grub.
-* Reboot the OS (you'll probably need again to use the `nomodeset` parameter) and install the [AMD kernel and drivers 4.19.8](!Software_&_OS_Distro/Linux/Drivers) with the official AMD package using the binaries.
+* Reboot the OS (you'll probably need again to use the `nomodeset` parameter) and install the [AMD kernel and drivers 4.19.8](!Operating_Systems/Linux/Drivers) with the official AMD package using the binaries.
 * Install the custom *kernel 4.19.8* you can find above.
 * Reboot the system with the new kernel.
 
