@@ -4,7 +4,7 @@ If you find any problem in the proper working of UDOO BOLT you can consult this 
 
 If it seems that your UDOO BOLT does NOT boot or that it restarts all the time, please check these points:
 
-- When the power jack is inserted the board does not start automatically. The power status LED is yellow/amber/orange and the board is in the power off state. To turn on UDOO BOLT you have to press the small **power button** on the front of the board. The status LED turns green when the board is powered on.
+- When the power jack is inserted the board does not start automatically. The power status LED is yellow/amber/orange and the board is in the power off state. To turn on UDOO BOLT you have to press the small **power button** on the front of the board. The status LED turns green when the board is powered on. Check the power button position in the [Hardware Reference - Overview](!/Hardware_References/Overview) page.
 
 - Check the **power source** you are applying to UDOO BOLT. Please, follow the [Power Sources](!/Hardware_References/Power_Sources) page or consult the [User Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf) to learn more about the power supply needed by the board for normal operation.
 
