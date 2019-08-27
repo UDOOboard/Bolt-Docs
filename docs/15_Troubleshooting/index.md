@@ -12,8 +12,8 @@ If your UDOO BOLT does NOT boot or restarts all the time, please check the follo
 
 ## I can't install Linux distros on eMMC
 
-If you are trying to **install** a **Linux** distribution on the UDOO BOLT **eMMC** but it is not seen by the installer wizard, please follow the _eMMC Installations_ section in the [Linux - Known issues](!/Operating_Systems/Linux/Known_issues) page.
+If you are trying to **install** a **Linux** distribution on the UDOO BOLT **eMMC** but it is not seen by the installer wizard, please follow the *eMMC Installations* section in the [Linux - Known issues](!/Operating_Systems/Linux/Known_issues) page. Probably the Linux distro you are trying to install use a Linux Kernel older than the 5.2.5 version.
 
 ## I can't upload sketches to Arduino Leonardo running Linux
 
-If you have any trouble uploading **Arduino sketches** running **Linux**, check the _Linux known issues_ section in the [Getting Started with Arduino Leonardo](!/Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo) page.
+If you have any trouble uploading **Arduino sketches** running **Linux**, check the *Linux known issues* section in the [Getting Started with Arduino Leonardo](!/Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo) page.

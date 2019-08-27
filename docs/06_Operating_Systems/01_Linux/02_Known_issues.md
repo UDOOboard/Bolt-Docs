@@ -30,9 +30,11 @@ If you don't need the AMD drivers you can set the fix the `nomodeset` boot optio
 
 ## eMMC Installations
 
-Unfortunately, the AMD eMMC Driver for the Ryzen v1000 embedded series processors is not in the main line Linux Kernel, so you will not able to install a standard Linux distribution on the eMMC onboard the UDOO BOLT without some tweaks.
+<span class="label label-info">Info!</span> The **Linux Kernel** mainline with version **>=5.2.5** includes support for the **AMD eMMC driver** for **Ryzen v1000 embedded** series processors. Some Linux distributions with a kernel version >=5.2.5 such as *ArchLinux* or *Mangiaro* have already been released and support correctly the UDOO BOLT eMMC.
 
-To install Linux on the eMMC a kernel patch released by AMD is needed.  
+Unfortunately, the AMD eMMC driver for the Ryzen v1000 embedded series processors was not included in the mainline **Linux Kernel** before version **5.2.5**, so it will not be possible to install a standard Linux distribution on the eMMC with an older kernel than that version(< 5.2.5) onboard the UDOO BOLT eMMC without some tweaks.
+
+To install a Linux distro with a kernel older than 5.2.5 on the eMMC, a kernel patch released by AMD is needed.  
 The package released by AMD is going to guide you through a creation of a *Ubuntu 18.04.1* installation image .iso file with the Linux Kernel *4.15.18* patched to support the AMD eMMC driver(you can find the patch package at the end of this section).
 
 We already followed the guide and created a custom installable .iso with the AMD eMMC support to allow you to install **Ubuntu 18.04.1 LTS** on the **eMMC** of the UDOO BOLT.
