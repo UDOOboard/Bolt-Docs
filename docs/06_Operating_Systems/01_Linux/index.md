@@ -6,11 +6,25 @@ We suggest to always use a **64-bit** OS version.
 In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
 
 <span class="label label-warning">Heads up!</span> There is a **known issue** with amdgpu driver which comes with 18.04 LTS and maybe others Linux distros. During and after OS
-installation it is possible that you may receive a UI after login or you may not. Check the [Known issues](!Operating_Systems/Linux/Known_issues) section to know how to deal with it.
+installation it is possible that you may receive a UI after login or you may not.  
+Check the [Known issues](!Operating_Systems/Linux/Known_issues) section to know how to deal with it.
 
-If you are looking for the **Linux Drivers for the V1000 Processors** you can check the [Linux Drivers](!Operating_Systems/Linux/Drivers) section.
+If you are looking for the **Linux Drivers for the V1000 Processors** you can check the [**Linux Drivers**](!Operating_Systems/Linux/Drivers) section.
 
 <span class="label label-warning">Heads up!</span> The AMD processors of the UDOO BOLT and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and all working properly.
+
+### Ubuntu 19.04 Disco Dingo with amdgpu graphics and eMMC support
+
+Due to the known issues with some Linux distributions, we've created an installer image of **Ubuntu 19.04 Disco Dingo** optimized for UDOO BOLT.  
+
+This image will install Ubuntu 19.04 with the mainline *Linux Kernel 5.2.10* that already includes the **AMD eMMC Driver** for the Ryzen v1000 series processors.  
+Using this image you will **not** need to use `nomodeset` procedure to workaround the issue that afflicts **amdgpu graphics** in previous versions.  
+
+[**Ubuntu 19.04 - UDOO BOLT eMMC installer image**](http://download.udoo.org/files/UDOO_BOLT/Ubuntu/ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso)  
+MDA5SUM: *b6eca6c59f692950e58bf078dbe13803  ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso*
+
+In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide on how to install a Linux distro.
+You basically need to create a bootable USB with a tool like rufus or similar and boot the board from that USB to start the installation wizard.
 
 ### Famous Linux distributions
 

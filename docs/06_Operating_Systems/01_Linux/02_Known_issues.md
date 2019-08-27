@@ -1,13 +1,17 @@
+<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
+The reported known issues in this page are already solved in the Ubuntu 19.04 image we've published in the start page of the <a href="./index.html">Linux section</a>.
+</p>
+
 ## amdgpu drivers issue - 'nomodeset' procedure
 
-There is a **known issue** with amdgpu driver which comes with **Ubuntu 18.04 LTS** (and maybe others Linux distros). During and after OS installation it is possible that you may receive a UI after login or you may not.
+<span class="label label-info">Info!</span> *Ubuntu 18.10 "Cosmic Cuttlefish"* and *Ubuntu 19.04 "Disco Dingo"* are not affected by this issue so you don't need to use this procedure.
 
-<span class="label label-info">Info!</span> Ubuntu 18.10 "Cosmic Cuttlefish" and Ubuntu 19.04 "Disco Dingo" are not affected by this issue so you don't need to use this procedure.
+There is a *known issue* with **amdgpu driver** which comes with **Ubuntu 18.04 LTS** (and maybe others Linux distros). During and after OS installation it is possible that you may receive a UI after login or you may not.
 
 You can find all the references about this issue in the amdgpu Documentation (amdgpu_UserGuide) in the driver packages downloadable from the AMD official website.
-Check the [Linux Drivers](!Operating_Systems/Linux/Drivers) section to download the latest driver package.
+Check the [**Linux Drivers**](!Operating_Systems/Linux/Drivers) section to download the latest driver package.
 
-If you experience this problem during the installation of Ubuntu 18.04 LTS follow the instructions below
+If you experience this problem during the installation of Ubuntu 18.04 LTS (or in a different Linux distro) follow the instructions below or install a newer version of Ubuntu or the optimized version of Ubuntu 19.04 we've published in the start page of the [Linux section](!/Operating_Systems/Linux/index)
 
 To workaround this issue you need to start the installation by adding `nomodeset` parameter to grub.
 
@@ -27,8 +31,7 @@ After you've installed Ubuntu 18.04 LTS you can install the AMD drivers followin
 
 If you don't need the AMD drivers you can set the fix the `nomodeset` boot option permanently so that you don't have to go through this manual procedure again following the instructions in [this post](https://askubuntu.com/a/38782/88802).
 
-
-## eMMC Installations
+## eMMC Usage and Installation
 
 <span class="label label-info">Info!</span> The **Linux Kernel** mainline with version **>=5.2.5** includes support for the **AMD eMMC driver** for **Ryzen v1000 embedded** series processors. Some Linux distributions with a kernel version >=5.2.5 such as *ArchLinux* or *Mangiaro* have already been released and support correctly the UDOO BOLT eMMC.
 
