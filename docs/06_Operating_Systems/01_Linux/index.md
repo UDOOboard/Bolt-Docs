@@ -13,7 +13,7 @@ If you are looking for the **Linux Drivers for the V1000 Processors** you can ch
 
 <span class="label label-warning">Heads up!</span> The AMD processors of the UDOO BOLT and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and all working properly.
 
-### Ubuntu 19.04 Disco Dingo with amdgpu graphics and eMMC support
+## Ubuntu 19.04 Disco Dingo with amdgpu graphics and eMMC support
 
 Due to the known issues with some Linux distributions, we've created an installer image of **Ubuntu 19.04 Disco Dingo** optimized for UDOO BOLT.  
 
@@ -26,7 +26,7 @@ MDA5SUM: *b6eca6c59f692950e58bf078dbe13803  ubuntu-19.04.0-udoo-bolt-emmc-deskto
 In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide on how to install a Linux distro.
 You basically need to create a bootable USB with a tool like [rufus](https://rufus.ie/) on Windows or *Startup Disk Creator* on Linux or similar, and boot the board from that USB to start the installation wizard.
 
-### Famous Linux distributions
+## Famous Linux distributions
 
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
