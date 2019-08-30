@@ -12,9 +12,10 @@ If your UDOO BOLT does NOT boot or restarts all the time, please check the follo
 
 ## I can't install Linux distros on eMMC
 
-If you are trying to **install** a **Linux** distribution on the UDOO BOLT **eMMC** but it is not seen by the installer wizard, please follow the *eMMC Usage and Installations* section in the [Linux - Known issues](!/Operating_Systems/Linux/Known_issues) page. Probably the Linux distro you are trying to install use a Linux Kernel older than the 5.2.5 version.  
-A Ubuntu 19.04 optimized version for UDOO BOLT that solves this issue is downloadable from the [Linux section](!/Operating_Systems/Linux/index).
+If you are trying to **install** a **Linux** distribution on the UDOO BOLT **eMMC** but it is not seen by the installer wizard, please follow the *eMMC Usage and Installations* section in the [Linux - Known issues](!/Operating_Systems/Linux/Known_issues#page_eMMC-Usage-and-Installation) page. Probably the Linux distro you are trying to install use a Linux Kernel older than the 5.2.5 version.  
+A Ubuntu 19.04 optimized version for UDOO BOLT that solves this issue is downloadable from the [Linux section](!/Operating_Systems/Linux/index#page_Ubuntu-19-04-Disco-Dingo-with-amdgpu-graphics-and-eMMC-support).
 
-## I can't upload sketches to Arduino Leonardo running Linux
+## I can't upload sketches to Arduino Leonardo
 
-If you have any trouble uploading **Arduino sketches** running **Linux**, check the *Linux known issues* section in the [Getting Started with Arduino Leonardo](!/Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo) page.
+If you have any trouble uploading **Arduino sketches** running **Linux**, check the *Linux - known issues* section in the [Getting Started with Arduino Leonardo](!/Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo#page_Known-issues) page.  
+Here you can find a procedure for trying to [restore the correct uploading state of sketches](!/Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo#page_How-to-restore-the-correct-uploading-state-of-sketches).
