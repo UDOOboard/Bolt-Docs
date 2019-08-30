@@ -31,3 +31,5 @@ Here you can find the DIMM modules validated and tested with the UDOO BOLT, part
 You will be able to buy these modules in the UDOO shop as accessories.
 
 Please always use DIMM modules with the same technical specification.
+
+<span class="label label-info">Info</span> In this thread of the UDOO Forum you can find an *unofficial* but useful discussion about others compatible memories: [UDOO BOLT Memory Compatibility List](https://www.udoo.org/forum/threads/udoo-bolt-memory-compatibility-list.27216/)

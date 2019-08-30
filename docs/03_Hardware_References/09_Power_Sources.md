@@ -17,9 +17,12 @@ This voltage can be supplied through a DC power jack (CN5).
 
 <span class="label label-warning">Heads up!</span> CE and FCC certifications retained using only the UDOO BOLT qualified Power Supply you can find in the UDOO Shop. When not using UDOO Bolt qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country
 
-
 ## USB Type-C
 
 The Board can also be powered by using a standard **USB-C** power adapter thanks the Power Delivery in Sink mode.  
 You can use either one of the two USB Type-C connectors (CN8, CN9).  
 The PD Sink power profile is **20V 3A**.
+
+<br><br>
+
+<span class="label label-info">Info</span> In this thread of the UDOO Forum you can find an *unofficial* but useful discussion about others compatible power supplies: [Power supply compatibility list](https://www.udoo.org/forum/threads/power-supply-compatibility-list.27218/)
