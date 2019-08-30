@@ -33,7 +33,7 @@ If you don't need the AMD drivers you can set the fix the `nomodeset` boot optio
 
 ## eMMC Usage and Installation
 
-<span class="label label-info">Info!</span> The **Linux Kernel** mainline with version **>=5.2.5** includes support for the **AMD eMMC driver** for **Ryzen v1000 embedded** series processors. Some Linux distributions with a kernel version >=5.2.5 such as *ArchLinux* or *Mangiaro* have already been released and support correctly the UDOO BOLT eMMC.
+<span class="label label-info">Info!</span> The **Linux Kernel** mainline with version **>=5.2.5** includes support for the **AMD eMMC driver** for **Ryzen v1000 embedded** series processors. Some Linux distributions with a kernel version >=5.2.5 such as *ArchLinux* or *Manjaro* have already been released and support correctly the UDOO BOLT eMMC.
 
 Unfortunately, the AMD eMMC driver for the Ryzen v1000 embedded series processors was not included in the mainline **Linux Kernel** before version **5.2.5**, so it will not be possible to install a standard Linux distribution on the eMMC with an older kernel than that version(< 5.2.5) onboard the UDOO BOLT eMMC without some tweaks.
 
