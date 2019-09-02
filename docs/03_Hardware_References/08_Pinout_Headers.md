@@ -121,9 +121,15 @@ The **Fan controller** is available at Pins **11**, **12**.
 | 11  |  FANOUT0  |     PWM0      |
 | 12  |  FANTACH0 |  FAN_TACH0    |
 
-The Fan Out is used as a PWM output to control the Fan Speed.
-The Fan Tachometer is used as in Input to capture the Fan Speed.
+The **Fan Out** is used as a PWM output to control the Fan Speed.
+The **Fan Tachometer** is used as in Input to capture the Fan Speed.  
 Remember you also need to provide the Voltage and Ground Pins to the external Fan.
+
+These two signals (out and tachometer) are *only 3.3V* digital pins exposed by the controller and therefore do not deliver power.   
+To drive a **3-pin** fan you need a power circuit that gives the right voltage to the fan. For example, this is the circuit used to drive the 5V fan installed above the heatsink:
+
+<img src="../img/bolt_fan_circuit.jpg" alt="fan circuit" class="img-responsive" >
+
 
 ## Wake Pins
 
