@@ -54,19 +54,19 @@ Check the [Board Versions](!Hardware_References/Board_versions) section to see t
   * AMD Radeon™ Vega 8 Graphics - 8 GPU Compute Units (V8 version)
   * AMD Radeon™ Vega 3 Graphics - 3 GPU Compute Units (V3 version)
 * RAM:
-  * 2x Slot SO-DIMM Dual-channel 64-bit DDR4 2400 MT/s with ECC support up to 32GB
+  * 2x SO-DIMM Dual-channel 64-bit DDR4 2400 MT/s with ECC support up to 32GB
 * Microchip ATmega32U4 8-bit AVR RISC-based microcontroller.
 * Video interfaces:
   * 2x HDMI 1.4/2.0a
   * 2x USB Type-C (DP alternate mode)
 * Storage:
-  * 1x 32GB eMMC 5.0 High Speed Drive
-  * 1x SSD SATA module's Slot M.2 Socket 2 Key B 2242/2260 (featured also PCI-e x2)
-  * 1x NVMe modules Slot M.2 Socket 3 Key M 2280 (PCI-e x4 Gen 3 interface)
+  * 1x 32GB internal eMMC 5.0 High Speed Drive
+  * 1x M.2 Socket 2 Key B 2242/2260 for SSD SATA modules (featured also PCI-e x2)
+  * 1x M.2 Socket 3 Key M 2280 for NVMe modules (PCI-e x4 Gen 3 interface)
   * 1x SATA III 6Gbit/s standard connector
 * Networking:
   * 1x Gigabit Ethernet LAN interface
-  * 1x M.2 Key E slot for optional Wireless(WiFi+BT) combo module
+  * 1x M.2 Key E slot for optional Wireless (WiFi+BT) Combo module
 * Audio interfaces:
   * HD Audio Codec Realtek ALC888S
   * Microphone + Headphone Combo Connector (TRRS)
@@ -99,7 +99,7 @@ Check the [Board Versions](!Hardware_References/Board_versions) section to see t
 
 &#42;Available on Pin Headers
 
-Visit the official accessories sections.
+Visit the [official accessories]( section.
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
