@@ -99,7 +99,7 @@ Check the [Board Versions](!Hardware_References/Board_versions) section to see t
 
 &#42;Available on Pin Headers
 
-Visit the [official accessories]( section.
+Visit the [official accessories](!Accessories/Official_Accessories).
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
