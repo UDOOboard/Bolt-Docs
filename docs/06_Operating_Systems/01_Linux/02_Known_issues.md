@@ -2,9 +2,9 @@
 The reported known issues in this page are already solved in the Ubuntu 19.04 image we've published in the start page of the <a href="./index.html">Linux section</a>.
 </p>
 
-## amdgpu drivers issue - 'nomodeset' procedure
+## amdgpu drivers issue in Ubuntu 18.04 - 'nomodeset' procedure
 
-<span class="label label-info">Info!</span> *Ubuntu 18.10 "Cosmic Cuttlefish"* and *Ubuntu 19.04 "Disco Dingo"* are not affected by this issue so you don't need to use this procedure.
+<span class="label label-info">Info!</span> Newer versions of Ubuntu than 18.04 are not affected by this issue so you don't need to use this procedure.
 
 There is a *known issue* with **amdgpu driver** which comes with **Ubuntu 18.04 LTS** (and maybe others Linux distros). During and after OS installation it is possible that you may receive a UI after login or you may not.
 
