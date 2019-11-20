@@ -14,7 +14,7 @@ It is possible to access the AMI Setup Utility by pressing the escape key (`ESC`
 
 ## UDOO BOLT Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO BOLT Hardware and UEFI BIOS User Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
+For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO BOLT Hardware and UEFI BIOS User Manual](https://udoo.org/download/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
 
 ## Restore Factory configuration
 

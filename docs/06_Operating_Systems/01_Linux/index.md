@@ -20,8 +20,8 @@ Due to the known issues with some Linux distributions, we've created an installe
 This image will install Ubuntu 19.04 with the mainline *Linux Kernel 5.2.10* that already includes the **AMD eMMC Driver** for the Ryzen v1000 series processors.  
 Using this image you will **not** need to use `nomodeset` procedure to workaround the issue that afflicts **amdgpu graphics** in previous versions.  
 
-[**Ubuntu 19.04 - UDOO BOLT eMMC installer image**](http://download.udoo.org/files/UDOO_BOLT/Ubuntu/ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso)  
-MD5SUM: *b6eca6c59f692950e58bf078dbe13803  ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso*
+[**Ubuntu 19.04 - UDOO BOLT eMMC installer image**](https://sourceforge.net/projects/udooboard/files/UDOO_BOLT/Ubuntu/ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso/download)  
+SHA1SUM: *d14f12d15f49c2356bfff14ad4a4366fefd83cc5  ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso*
 
 In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide on how to install a Linux distro.
 You basically need to create a bootable USB with a tool like [rufus](https://rufus.ie/) on Windows or *Startup Disk Creator* on Linux or similar, and boot the board from that USB to start the installation wizard.

@@ -6,9 +6,9 @@ If your UDOO BOLT does NOT boot or restarts all the time, please check the follo
 
 - When the power jack is inserted the board does not start automatically. The power status LED is *yellow/amber/orange* and the board is in the power off state. To turn on UDOO BOLT you have to press the small **power button** on the front of the board. The status LED turns green when the board is powered on. Check the power button position in the [Hardware Reference - Overview](!/Hardware_References/Overview) page.
 
-- Check the **power source** you are applying to UDOO BOLT. Please, follow the [Power Sources](!/Hardware_References/Power_Sources) page or consult the [User Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf) to learn more about the power supply needed by the board for normal operation.
+- Check the **power source** you are applying to UDOO BOLT. Please, follow the [Power Sources](!/Hardware_References/Power_Sources) page or consult the [User Manual](https://udoo.org/download/files/Doc/UDOO_BOLT_MANUAL.pdf) to learn more about the power supply needed by the board for normal operation.
 
-- Check that the restore factory configuration **switch** is in the right position for normal operation, otherwise the board will restart continuously. You can find info about that switch in the [BIOS-UEFI Firmware](!/Advanced_Topics/BIOS-UEFI_firmware) page or consulting the [User Manual](http://download.udoo.org/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf).
+- Check that the restore factory configuration **switch** is in the right position for normal operation, otherwise the board will restart continuously. You can find info about that switch in the [BIOS-UEFI Firmware](!/Advanced_Topics/BIOS-UEFI_firmware) page or consulting the [User Manual](https://udoo.org/download/files//Doc/UDOO_BOLT_MANUAL.pdf).
 
 ## I can't install Linux distros on eMMC
 
