@@ -10,6 +10,10 @@ If your UDOO BOLT does NOT boot or restarts all the time, please check the follo
 
 - Check that the restore factory configuration **switch** is in the right position for normal operation, otherwise the board will restart continuously. You can find info about that switch in the [BIOS-UEFI Firmware](!/Advanced_Topics/BIOS-UEFI_firmware) page or consulting the [User Manual](https://udoo.org/download/files//Doc/UDOO_BOLT_MANUAL.pdf).
 
+- Try detaching all peripherals connected to UDOO BOLT except RAM and video cable. You should be able to see the UDOO LOGO and the first page of the BIOS.
+
+- If you are using 2 RAM modules, try using only one RAM module at a time in the socket closest to the heatsink. If the card does not boot with either RAM modules, try using one RAM module at a time in the other socket, the one farthest from the heatsink. This is useful to rule out a problem with one of the RAM modules or one of the RAM sockets.
+
 ## I can't install Linux distros on eMMC
 
 If you are trying to **install** a **Linux** distribution on the UDOO BOLT **eMMC** but it is not seen by the installer wizard, please follow the *eMMC Usage and Installations* section in the [Linux - Known issues](!/Operating_Systems/Linux/Known_issues#page_eMMC-Usage-and-Installation) page. Probably the Linux distro you are trying to install use a Linux Kernel older than the 5.2.5 version.  
