@@ -10,6 +10,8 @@ Please do NOT "play" with the BIOS-UEFI Firmware menu choices if you don't know 
 
 <span class="label label-warning">Heads up!</span> Since some resolutions or monitors are not managed well by the firmware, if you get a black screen when you try to enter in one of the UEFI Firmware Setup Utility Menu options, try using another Display with a 1920x1080 resolution (HDMI or DisplayPort) or a different cable.  
 
+<span class="label label-warning">Heads up!</span>  Please, always keep updated the BIOS/UEFI Firmware of your UDOO BOLT to have the latest features and bugfix available.  
+
 ### UDOO BOLT Hardware and UEFI BIOS User Manual
 
 For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO BOLT Hardware and UEFI BIOS User Manual](https://udoo.org/download/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
@@ -25,40 +27,3 @@ During normal use, the contact MUST be always placed in 2-3 position.
 You can restore the factory default settings also from within the BIOS/UEFI settings pressing the **F9** key.
 
 <span class="label label-warning">Heads up!</span> Updating the BIOS/UEFI to a newer version will also restore the new factory default configuration.
-
-## BIOS/UEFI Update
-
-At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update the UDOO BOLT with the new BIOS/UEFI Firmware version.
-
-<span class="label label-warning">Heads up!</span> Please read carefully all the following information in this page and in the documentation file inside the package before to flash the new BIOS/UEFI
-
-Please be aware that using **Windows** programmer, it must be run in a Prompt CMD shell with Administrator privileges.
-
-Using **Linux** programmer, *gcc compiler* and *Kernel-headers* are needed and every operation must be done with root/administrator privileges.  
-
-<ul style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-  <li>DO NOT POWER OFF the board while flashing. DO NOT interrupt the process while is running.</li>
-  <li>Please use <strong>19V Power Supply</strong>, not the USB-C power.</li>
-  <li>After flashing is complete, power off the board, <strong>disconnect and reconnect the power cable</strong>.</li>
-  <li>When you reconnect the power, wait <strong>up to 3 minutes and a couple of reboots</strong> until you see the newer version of the firmware of Embedded Controller and USB-C Controller in the configuration screen.</li>
-  <li>It takes a few restarts for the update to be completely installed, and there's no visual feedback on that yet. In the meantime, the system and the boot phase might be slower.</li>
-</ul>
-
-Download here the [UEFI BIOS Firmware + Update Utility Tool]() package.
-
-The package contains:
-* Latest UEFI Firmware binary
-  * BIOS version:  1.07
-  * Release Date:  19/03/2020
-  * SHA1 .zip file:  
-* Update Utility Tool
-  * EFI shell programming utility
-  * Windows 32-bit BIOS programmer
-  * Windows 64-bit BIOS programmer
-  * Linux 32-bit programmer
-  * Linux 64-bit programmer
-* Update procedure documentation (.pdf)
-
-Follow the procedure in the `APN - BIOS programming using AFU.pdf` file to update the BIOS/UEFI BIOS firmware using Windows, EFI shell or Linux running on your UDOO BOLT.
-
-<span class="label label-info">Note</span> Remember that updating the BIOS/UEFI firmware will revert the saved configuration to Factory Default.

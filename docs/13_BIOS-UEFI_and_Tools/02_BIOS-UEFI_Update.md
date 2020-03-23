@@ -31,4 +31,8 @@ The package contains:
 
 Follow the procedure in the `APN - BIOS programming using AFU.pdf` file to update the BIOS/UEFI BIOS firmware using Windows, EFI shell or Linux running on your UDOO BOLT.
 
+<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
+If you are one of the Kickstarter users and you see a green dot on one side of the fan, please check the <a href="../BIOS-UEFI_Firmware/Fan_Settings.html">Fan Settings</a> page.
+</p>
+
 <span class="label label-info">Note</span> Remember that updating the BIOS/UEFI firmware will revert the saved configuration to Factory Default.

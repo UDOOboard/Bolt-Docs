@@ -8,7 +8,7 @@ If your UDOO BOLT does NOT boot or restarts all the time, please check the follo
 
 - Check the **power source** you are applying to UDOO BOLT. Please, follow the [Power Sources](!/Hardware_References/Power_Sources) page or consult the [User Manual](https://udoo.org/download/files/Doc/UDOO_BOLT_MANUAL.pdf) to learn more about the power supply needed by the board for normal operation.
 
-- Check that the restore factory configuration **switch** is in the right position for normal operation, otherwise the board will restart continuously. You can find info about that switch in the [BIOS-UEFI Firmware](!/Advanced_Topics/BIOS-UEFI_firmware) page or consulting the [User Manual](https://udoo.org/download/files//Doc/UDOO_BOLT_MANUAL.pdf).
+- Check that the restore factory configuration **switch** is in the right position for normal operation, otherwise the board will restart continuously. You can find info about that switch in the [BIOS-UEFI Firmware](!/BIOS-UEFI_and_Tools/BIOS-UEFI_Firmware) page or consulting the [User Manual](https://udoo.org/download/files//Doc/UDOO_BOLT_MANUAL.pdf).
 
 - Try detaching all peripherals connected to UDOO BOLT except RAM and video cable. You should be able to see the UDOO LOGO and the first page of the BIOS.
 
