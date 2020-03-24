@@ -13,12 +13,10 @@ Since the Arduino Pinout connector (*CN24*) is fully described in the [dedicated
 
 The **Embedded Controller** input/output (I/O) pins operate at **3.3V**.
 
-<div class="alert alert-danger" role="alert">
-  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-  <span class="sr-only">Warning!</span>
-  Warning: UDOO BOLT Pins controlled by the Embedded Controller are 3.3V compliant. Providing higher voltages, like 5V or 12V, could irreversibly damage the board.  
-  In order to properly work with an input voltage different from 3.3V you can use a bidirectional level shifter.
-</div>
+<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
+⚠️ <strong>Warning</strong>: UDOO BOLT Pins controlled by the Embedded Controller are 3.3V compliant. Providing higher voltages, like 5V or 12V, could irreversibly damage the board.  
+In order to properly work with an input voltage different from 3.3V you can use a bidirectional level shifter.
+</p>
 
 ### Pinmuxing
 The image below shows the list of all possible functions assigned to each Pin.
@@ -95,6 +93,8 @@ The **I2C 2** is available at Pins *7*, *9*.
 
 Check the [Microchip MEC1705 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MEC170x-Data-Sheet-DS00002206D.pdf) for more info about the I2C interface.
 
+You can use the I2C exposed by the EC using the [EAPI libraries](!/BIOS-UEFI_and_Tools/EAPI) in your software.
+
 ## SPI
 
 The [Serial Peripheral Interface (SPI)](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems.  
@@ -130,6 +130,7 @@ To drive a **3-pin** fan you need a power circuit that gives the right voltage t
 
 <img src="../img/bolt_fan_circuit.jpg" alt="fan circuit" class="img-responsive" >
 
+You can control these Fan Pins using the [EAPI libraries](!/BIOS-UEFI_and_Tools/EAPI) in your software.
 
 ## Wake Pins
 
@@ -170,3 +171,5 @@ The **Keyboard Scan** is available at Pins from **13** to **28**.
 | 26  |  KSO12    |     KSO12   |
 | 27  |  KSO10    |     KSO10   |
 | 28  |  KSO13    |     KSO13   |
+
+You can use these Pins as GPIO exposed by the EC using the [EAPI libraries](!/BIOS-UEFI_and_Tools/EAPI) in your software.
