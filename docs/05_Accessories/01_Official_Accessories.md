@@ -26,7 +26,7 @@ To mount the SSD is necessary the following fixtures (included with the board):
 
 <img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-right" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
 
-[Buy it from the shop](https://shop.udoo.org/m-2-wi-fi-intel-dual-band-ac-wi-fi-bt-4-0-5ghz-antenna-adhesive.html)
+[Buy it from the shop](https://shop.udoo.org/kit-m2-wifi-bt.html)
 
 The package includes:
 * Wi-Fi AC and Bluetooth 4.2 module
@@ -105,7 +105,7 @@ If you're looking for more info about this screen you can check the wiki page of
 
 ### Metal Case
 
-[Buy it from the shop](link coming soon)
+[Buy it from the shop](https://shop.udoo.org/udoo-bolt-metal-case.html)
 
 A beautiful metal case for your UDOO BOLT.  
 <span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat itself, but it allows the airflow to dissipate the board properly using the processor fan.
