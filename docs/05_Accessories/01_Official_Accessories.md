@@ -172,12 +172,19 @@ For example you can use 2x IPEX MFH-4(W.FL) to RP-SMA cables and 2x RP-SMA anten
 
 ## Cables and Others
 
-### Cables and Power Supply
+### Cables
 
 * [HDMI to HDMI](https://shop.udoo.org/cable-hdmi-to-hdmi.html) -
 HDMI A Male to A Male Cable 2MT: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)
 * [SATA data and power cables kit](https://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) -
 SATA data and power cables for UDOO BOLT (CN18 and CN30 connectors)
-* [Power Supply EU 19V 3.42A for UDOO BOLT - link coming soon
+* [USB-C HUB](https://shop.udoo.org/usb-c-hub.html) -
+It includes 3x USB Type-A and 1GB Ethernet ports
+
+### Power Supply
+
+* [19V 65W AC power adapter](https://shop.udoo.org/bolt-accessories/19v-65w-ac-power-adapter.html)
   * Input: 100-240VAC 50/60Hz Output: 19V 3.42A DC
   * Output plug: 4.5mm * 3mm * 10mm
+* [USA Power Cable](https://shop.udoo.org/usa-power-cable.html) - The USA power cable that you need to use with the [19V 65W AC power adapter](https://shop.udoo.org/bolt-accessories/19v-65w-ac-power-adapter.html)
+* [EU Power Cable](https://shop.udoo.org/eu-power-cable.html) - The EU power cable that you need to use with the [19V 65W AC power adapter](https://shop.udoo.org/bolt-accessories/19v-65w-ac-power-adapter.html)
