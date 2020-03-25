@@ -109,6 +109,7 @@ The **SPI** is available at Pins *1*, *2*, *3*, *4*.
 | 3   |  SPI_MOSI |  SPI0_MOSI    |
 | 4   |  SPI_CLK  |  SPI0_CLK     |
 
+You can use the SPI exposed by the EC using the [EAPI libraries](!/BIOS-UEFI_and_Tools/EAPI) in your software.
 
 ## Fan Controller
 
