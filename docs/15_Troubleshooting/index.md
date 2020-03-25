@@ -23,3 +23,7 @@ A Ubuntu 19.04 optimized version for UDOO BOLT that solves this issue is downloa
 
 If you have any trouble uploading **Arduino sketches** running **Linux**, check the *Linux - known issues* section in the [Getting Started with Arduino Leonardo](!/Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo#page_Known-issues) page.  
 Here you can find a procedure for trying to [restore the correct uploading state of sketches](!/Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo#page_How-to-restore-the-correct-uploading-state-of-sketches).
+
+## The Fan on top of the heatsink has a strange behaviour
+
+If you are one of the **Kickstarter users** and you see a **Green Dot** 🟢 on one side of the fan, please check the warnings in [Fan Settings](!/BIOS-UEFI_and_Tools/Fan_Settings) page to know how to configure the BIOS settings for your fan. An incorrect configuration can also cause the UDOO BOLT to shut down because it cannot dissipate heat properly.
