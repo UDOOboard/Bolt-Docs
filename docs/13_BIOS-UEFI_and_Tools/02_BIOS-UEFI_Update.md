@@ -1,10 +1,11 @@
 At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update the UDOO BOLT with the new BIOS/UEFI Firmware version.
 
-<span class="label label-warning">Heads up!</span> Please read carefully all the following information in this page and in the documentation file inside the package before to flash the new BIOS/UEFI
+<span class="label label-warning">Heads up!</span> **Please read carefully** all the following information in this page and in the documentation file inside the package before to flash the new BIOS/UEFI
 
-Please be aware that using **Windows** programmer, it must be run in a Prompt CMD shell with Administrator privileges.
+Please be aware that using **Windows** programmer, it must be run in a Prompt CMD shell or PowerShell with Administrator privileges.
 
 Using **Linux** programmer, *gcc compiler* and *Kernel-headers* are needed and every operation must be done with root/administrator privileges.  
+The Flash Tool for Linux is not supported by the AMD Linux Kernel. If you have installed the [AMDGPU-Pro](!Operating_Systems/Linux/Drivers) drivers with the official AMD package, you have a custom AMD Linux Kernel on your system. We suggest to boot in a Linux Live distro or EFI shell to update the BIOS.
 
 <ul style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
   <li>DO NOT POWER OFF the board while flashing. DO NOT interrupt the process while is running.</li>
@@ -14,7 +15,7 @@ Using **Linux** programmer, *gcc compiler* and *Kernel-headers* are needed and e
   <li>It takes a few restarts for the update to be completely installed, and there's no visual feedback on that yet. In the meantime, the system and the boot phase might be slower.</li>
 </ul>
 
-Download here the [UEFI BIOS Firmware + Update Utility Tool]() package.
+Download here the [UEFI BIOS Firmware + Update Utility Tool](https://www.udoo.org/download/files/UDOO_BOLT/UEFI_update/UDOOBOLT_C40_UEFI_Update_rel107.zip) package.
 
 The package contains:
 * Latest UEFI Firmware binary

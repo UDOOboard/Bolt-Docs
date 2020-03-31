@@ -11,7 +11,7 @@ In this page you can find anything you need to know regarding the Linux Drivers.
 from the *Gentoo Linux* docs we report an exhaustive explanation of the situations in which it is convenient to use one or other version of the driver:
 > Users whose main use for their graphics card is gaming and other general home-use graphical hardware acceleration should use the open source AMDGPU drivers, since the performance of the open source drivers can be as much 100% more compared to AMDGPU-Pro. However, the PRO driver provides a few features that Mesa still lacks, namely OpenGL compatibility profiles, OpenCL 2.0, and a fully conformant Vulkan implementation. Also, most of the games for which Mesa outperforms the closed-source driver run in Wine, rather than natively. Thus, the closed-source driver is mostly useful to users who want to play games (such as Civilization V) or use applications (such as UCSF Chimera) that rely on compatibility profiles, or want to run anything that uses Vulkan with advanced shaders, or want to fully exploit OpenCL.
 
-<span class="label label-info">Info</span> For most of the users so the amdgpu open source drivers are enough and work well for all the test we made.
+<span class="label label-info">Info</span> **For most of the users so the amdgpu open source drivers are enough and work well for all the test we made.**
 
 ## AMDGPU
 

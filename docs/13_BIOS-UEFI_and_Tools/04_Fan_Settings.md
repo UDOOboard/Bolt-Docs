@@ -29,9 +29,9 @@ Here a detailed description of the fan settings and its default values.
 
 **Enhanced 3 wire RPM measurement** refers to an algorithm necessary for the consistent reading of the current fan speed to respond to the tachometer signal. This data is made available by [EAPI libraries](!/BIOS-UEFI_and_Tools/EAPI). The algorithm set the speed fan to 100% for 100 milliseconds every 3 seconds. This is the standard way for the 3 wires fan to have a consistent reading of the speed. By default it is disabled because it can create a perceptible non-linear motion sound effect on some fans or some assembly situations.
 
-**AC0 Temperature** indicates the temperature above which the fan start turns on at full 100% speed.
+**AC0 Temperature** indicates the temperature above which the fan start turns on at full 100% rotation speed.
 
-**AC1 Temperature** indicates the temperature above which the fan start turns on at the % speed indicated by the *FAN Duty Cycle (%) Above AC1* value.
+**AC1 Temperature** indicates the temperature above which the fan start turns on at the % rotation speed indicated by the *FAN Duty Cycle (%) Above AC1* value.
 
 **Temperature Hysteresis** is the threshold of hysteresis after which the fan will restart once it has shut down after dissipating heat.
 
@@ -45,5 +45,5 @@ if the fan is changed to one that does <strong>not handle PWM</strong> rotation 
 </p>
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-If you are one of the <strong>Kickstarter users</strong> and you see a <span style="color:green"><strong>Green Dot</strong></span> 🟢 on one side of the fan, your fan is not handling the PWM speed correctly, so please set the <strong>FAN Duty Cycle values</strong> to <strong>100</strong> and <strong>Speed change duration</strong> to <strong>0</strong>. If you still have problems with these fans, please open a ticket in the customer care.
+If you are one of the <strong>Kickstarter users</strong> and you see a <span style="color:green"><strong>Green Dot</strong></span> 🟢 on one side of the fan, your fan is not handling the PWM speed correctly, so please set the <strong>FAN Duty Cycle values</strong> to <strong>100</strong> and <strong>Speed change duration</strong> to <strong>0</strong>. If you still have a problem with this fan after applying these settings, please open a ticket in the customer care support center.
 </p>
