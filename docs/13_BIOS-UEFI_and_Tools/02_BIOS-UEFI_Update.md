@@ -19,9 +19,9 @@ Download here the [UEFI BIOS Firmware + Update Utility Tool](https://www.udoo.or
 
 The package contains:
 * Latest UEFI Firmware binary
-  * BIOS version:  1.07
-  * Release Date:  19/03/2020
-  * SHA1 .zip file:  
+  * BIOS version:  1.07.1
+  * Release Date:  14/04/2020
+  * SHA1 .zip file:  3130C1CFC98CAAF922ACC480AEB3E54E6568FF9D
 * Update Utility Tool
   * EFI shell programming utility
   * Windows 32-bit BIOS programmer
