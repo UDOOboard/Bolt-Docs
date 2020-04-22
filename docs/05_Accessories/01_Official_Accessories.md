@@ -147,6 +147,7 @@ UDOO BOLT METAL CASE includes:
 <br/>
 <br/>
 
+The case features in the bottom 4 holes standard VESA MIS-D 100 (100mm x 100mm) to mount the entire case behind a monitor VESA compatible with the included screws. Always in the bottom part there are other 4 holes and the empty space to fix a 2.5" Sata hard drive.  
 The case also features two holes in the back side, to connect the WiFi externally and BT antennas of the M.2 module through a RP-SMA connector.  
 For example you can use 2x IPEX MFH-4(W.FL) to RP-SMA cables and 2x RP-SMA antennas like in the following image.  
 <span class="label label-warning">Heads up!</span> These items are not included.  
