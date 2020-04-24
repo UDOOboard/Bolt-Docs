@@ -15,13 +15,13 @@ The Flash Tool for Linux is not supported by the AMD Linux Kernel. If you have i
   <li>It takes a few restarts for the update to be completely installed, and there's no visual feedback on that yet. In the meantime, the system and the boot phase might be slower.</li>
 </ul>
 
-Download here the [UEFI BIOS Firmware + Update Utility Tool](https://www.udoo.org/download/files/UDOO_BOLT/UEFI_update/UDOOBOLT_C40_UEFI_Update_rel107.zip) package.
+Download here the [UEFI BIOS Firmware + Update Utility Tool](https://www.udoo.org/download/files/UDOO_BOLT/UEFI_update/UDOOBOLT_C40_UEFI_Update_rel108.zip) package.
 
 The package contains:
 * Latest UEFI Firmware binary
-  * BIOS version:  1.07.1
-  * Release Date:  14/04/2020
-  * SHA1 .zip file:  3130C1CFC98CAAF922ACC480AEB3E54E6568FF9D
+  * BIOS version:  1.08
+  * Release Date:  24/04/2020
+  * SHA1 .zip file:  C166CAB58926E6CB73423E85AF1DC966B6C9792B
 * Update Utility Tool
   * EFI shell programming utility
   * Windows 32-bit BIOS programmer
