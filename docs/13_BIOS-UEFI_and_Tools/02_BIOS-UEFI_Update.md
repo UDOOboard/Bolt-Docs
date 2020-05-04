@@ -21,7 +21,7 @@ The package contains:
 * Latest UEFI Firmware binary
   * BIOS version:  1.08
   * Release Date:  24/04/2020
-  * SHA1 .zip file:  C166CAB58926E6CB73423E85AF1DC966B6C9792B
+  * SHA1 .zip file:  0C4421E28FE9DEECA8DA20FF482B65377FF8F9FC
 * Update Utility Tool
   * EFI shell programming utility
   * Windows 32-bit BIOS programmer
