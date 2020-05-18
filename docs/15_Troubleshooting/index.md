@@ -22,6 +22,12 @@ The D13 orange LED you see is the standard Arduino LED 13. The Arduino&reg; micr
 
 If you are one of the **Kickstarter users** and you see a **Green Dot** 🟢 on one side of the fan, please check the warnings in [Fan Settings](!/BIOS-UEFI_and_Tools/Fan_Settings) page to know how to configure the BIOS settings for your fan. An incorrect configuration can also cause the UDOO BOLT to shut down because it cannot dissipate heat properly.
 
+## Blue Screen stop errors occur on my Windows installation.
+
+If you have installed Windows on an external drive (M.2 or SATA) and occasionally there are Blue Screen stop error events (commonly called BSOD) the problem may be related to a strange behavior of the Windows eMMC driver that throws sporadic errors in memory access. This behavior is more frequent when the UDOO BOLT is in idle state.
+We suggest not using eMMC memory and disable it from the Device Manager.  
+To do so: right click on Start -> Device Manager -> Expand the section "Disk drives" -> right click on `SanDisk DF4032` -> click on "Disable".  
+
 ## I can't install Linux distros on eMMC
 
 If you are trying to **install** a **Linux** distribution on the UDOO BOLT **eMMC** but it is not seen by the installer wizard, please follow the *eMMC Usage and Installations* section in the [Linux - Known issues](!/Operating_Systems/Linux/Known_issues#page_eMMC-Usage-and-Installation) page. Probably the Linux distro you are trying to install use a Linux Kernel older than the 5.2.5 version.  
