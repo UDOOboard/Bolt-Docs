@@ -24,6 +24,6 @@ During normal use, the contact MUST be always placed in 2-3 position.
 
 <img src="../img/bolt_uefi_restore_switch.png" alt="UDOO versions" class="img-responsive" >
 
-You can restore the factory default settings also from within the BIOS/UEFI settings pressing the **F9** key.
+You can restore the optimized factory default settings also from within the BIOS/UEFI pressing the **F3** key.
 
 <span class="label label-warning">Heads up!</span> Updating the BIOS/UEFI to a newer version will also restore the new factory default configuration.
