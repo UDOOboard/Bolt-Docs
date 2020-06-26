@@ -49,8 +49,8 @@ The 3 Grove connectors are directly connected to the same pins of the external p
 
 ## Arduino&reg; Shields compatibility
 
-This is the first time that a UDOO board doesn't present the standard Arduino&reg; Pinout, however, you can use the [UDOO BOLT I/O Expansion Board](!Accessories/Official_Accessories) to have the standard Arduino&reg; Pinout and use the all the Arduino&reg; shields you want.  
+This is the first time that a UDOO board doesn't present the standard Arduino&reg; Pinout, however, an esternal accessory is in design to let you use the **UDOO BOLT I/O Expansion Board** to have the standard Arduino&reg; Pinout and use the all the Arduino&reg; shields you want.
 
 <img src="../img/bolt_io_expansion_board.png" alt="UDOO I/O Expansion Board" class="img-responsive" >
 
-The UDOO BOLT I/O Expansion Board features a full Arduino&reg; Leonardo Pinout including ICSP connector, RX and TX LEDs as well as the Reset Button, with the addition of an I2C Brick connector compatible with the Snap-in [UDOO Bricks](https://www.udoo.org/udoo-bricks/), i.e. the flexible sensors by UDOO which also are pluggable in a cascade configuration.
+The UDOO BOLT I/O Expansion Board will features a full Arduino&reg; Leonardo Pinout including ICSP connector, RX and TX LEDs as well as the Reset Button, with the addition of an I2C Brick connector compatible with the Snap-in [UDOO Bricks](https://www.udoo.org/udoo-bricks/), i.e. the flexible sensors by UDOO which also are pluggable in a cascade configuration.
