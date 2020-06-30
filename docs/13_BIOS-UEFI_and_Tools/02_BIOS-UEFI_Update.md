@@ -5,12 +5,11 @@ At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UE
 Please be aware that using **Windows** programmer, it must be run in a Prompt CMD shell or PowerShell with Administrator privileges.
 
 Using **Linux** programmer, every operation must be done with root/administrator privileges and all the necessary to compile kernel modules is needed  
-e.g. in Ubuntu 19.10  
+e.g. in Ubuntu 20.04
 
       sudo apt install build-essential linux-headers-$(uname -r) flex bison
 
-The Flash Tool for Linux is not supported by the Linux Kernels *after 5.3*.  
-The Flash Tool for Linux is not supported by the AMD Linux Kernel. If you have installed the [AMDGPU-Pro](!Operating_Systems/Linux/Drivers) drivers with the official AMD package, you have a custom AMD Linux Kernel on your system. We suggest to boot in a Linux Live distro (e.g. Ubuntu 19.10) or EFI shell to update the BIOS.
+Please read the following warnings:
 
 <ul style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
   <li>DO NOT POWER OFF the board while flashing. DO NOT interrupt the process while is running.</li>
@@ -26,7 +25,7 @@ The package contains:
 * Latest UEFI Firmware binary
   * BIOS version:  1.08
   * Release Date:  24/04/2020
-  * SHA1 .zip file:  0C4421E28FE9DEECA8DA20FF482B65377FF8F9FC
+  * SHA1 .zip file:  EF37203F7CFB6DF4CB6807EF1CFA68975BFFB88C
 * Update Utility Tool
   * EFI shell programming utility
   * Windows 32-bit BIOS programmer
