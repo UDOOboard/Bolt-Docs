@@ -22,11 +22,11 @@ MOdule removal from a socket: gently spread the socket’s retention arms to dis
 
 ### Validated modules
 
-Here you can find the RAM modules validated and tested with the UDOO BOLT, part of the family product [Trascend DDR4-2400 SO-DIMM](https://www.transcend-info.com/Embedded/Products/No-1110)
+Here you can find the RAM modules validated and tested with the UDOO BOLT, part of the family product [Transcend DDR4-2400 SO-DIMM](https://www.transcend-info.com/Embedded/Products/No-1110)
 
-* **[Trascend TS512MSH64V4H](https://shop.udoo.org/4gb-so-dimm-ddr4-2400mhz.html)** (RAM SO-DIMM Module 4GB (512Mx8 - 1Rx8) DDR4 1.2V PC4-2400 non-ECC - Lead Free)
-* **[Trascend TS1GSH64V4B](https://shop.udoo.org/8gb-so-dimm-ddr4-2400mhz.html)** (RAM SO-DIMM Module 8GB (1024Mx8 - 1Rx8) DDR4 1.2V PC4-2400 non-ECC CL=17 - Lead Free)
-* **[Trascend TS2GSH64V4B](https://shop.udoo.org/16gb-so-dimm-ddr4-2400mhz.html)** (RAM SO-DIMM Module 16GB (1024Mx8 - 2Rx8) DDR4 1.2V PC4-2400 non-ECC CL=17 - Lead Free)
+* **[Transcend TS512MSH64V4H](https://shop.udoo.org/4gb-so-dimm-ddr4-2400mhz.html)** (RAM SO-DIMM Module 4GB (512Mx8 - 1Rx8) DDR4 1.2V PC4-2400 non-ECC - Lead Free)
+* **[Transcend TS1GSH64V4B](https://shop.udoo.org/8gb-so-dimm-ddr4-2400mhz.html)** (RAM SO-DIMM Module 8GB (1024Mx8 - 1Rx8) DDR4 1.2V PC4-2400 non-ECC CL=17 - Lead Free)
+* **[Transcend TS2GSH64V4B](https://shop.udoo.org/16gb-so-dimm-ddr4-2400mhz.html)** (RAM SO-DIMM Module 16GB (1024Mx8 - 2Rx8) DDR4 1.2V PC4-2400 non-ECC CL=17 - Lead Free)
 
 Please always use SO-DIMM modules with the same technical specification.
 
