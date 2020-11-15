@@ -135,8 +135,7 @@ You can control these Fan Pins using the [EAPI libraries](!/BIOS-UEFI_and_Tools/
 
 ## Wake Pins
 
-The Wake pin can be used as an interrupt, the signal is caught by the EC and propagated to wake up the main AMD Ryzen&trade; processor from S3/S4/S5 status (Suspend/Hibernate/Power Off).  
-The interrupt required to trigger a wake signal is a change of state (active low) like that of a button.
+The Wake pin can be used as an interrupt, the signal is caught by the EC and propagated to wake up the main AMD Ryzen&trade; processor from S3/S4/S5 status (Suspend/Hibernate/Power Off).
 
 The **Wake** is available at Pin **6**.
 
@@ -144,7 +143,7 @@ The **Wake** is available at Pin **6**.
 |-----|-----------|---------------|
 | 6   |  WAKE#    |     GPIO025   |
 
-
+The wake signal is activated by a logical state change on the Pin (e.g. active low from 3.3V to GND).
 
 ## Keyboard Scan
 
