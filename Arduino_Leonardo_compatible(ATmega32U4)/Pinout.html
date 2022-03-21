@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Pinout - UDOO BOLT Docs</title>
+    <meta name="description" content="UDOO BOLT Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-udoo.ico" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+            <!-- Tipue Search -->
+        <link href="../tipuesearch/tipuesearch.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="../img/logo_docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO BOLT Documentation</a>
+
+    <div class="Search">
+        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451"><path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/></svg>
+        <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on" results=25 autosave=text_search>
+    </div>
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware References</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_References/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Hardware_References/Resources.html">Resources</a></li><li class='Nav__item '><a href="../Hardware_References/Board_versions.html">Board versions</a></li><li class='Nav__item '><a href="../Hardware_References/Memory_Installation.html">Memory Installation</a></li><li class='Nav__item '><a href="../Hardware_References/Video_Output.html">Video Output</a></li><li class='Nav__item '><a href="../Hardware_References/Storage_Options.html">Storage Options</a></li><li class='Nav__item '><a href="../Hardware_References/M.2_Connectors.html">M.2 Connectors</a></li><li class='Nav__item '><a href="../Hardware_References/Pinout_Headers.html">Pinout Headers</a></li><li class='Nav__item '><a href="../Hardware_References/Power_Sources.html">Power Sources</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Accessories</a><ul class='Nav'><li class='Nav__item '><a href="../Accessories/Official_Accessories.html">Official Accessories</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Operating Systems</a><ul class='Nav'><li class='Nav__item  has-children'><a href="../Operating_Systems/Linux/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Linux</a><ul class='Nav'><li class='Nav__item '><a href="../Operating_Systems/Linux/Known_issues.html">Known issues</a></li><li class='Nav__item '><a href="../Operating_Systems/Linux/Drivers.html">Drivers</a></li></ul></li><li class='Nav__item '><a href="../Operating_Systems/Windows.html">Windows</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Arduino Leonardo-compatible(ATmega32U4)</a><ul class='Nav'><li class='Nav__item '><a href="../Arduino_Leonardo_compatible(ATmega32U4)/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Arduino_Leonardo_compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html">Getting Started with Arduino Leonardo</a></li><li class='Nav__item Nav__item--active'><a href="../Arduino_Leonardo_compatible(ATmega32U4)/Pinout.html">Pinout</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>BIOS-UEFI and Tools</a><ul class='Nav'><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/BIOS_UEFI_Firmware.html">BIOS-UEFI Firmware</a></li><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/BIOS_UEFI_Update.html">BIOS-UEFI Update</a></li><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/EAPI.html">EAPI</a></li><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/Fan_Settings.html">Fan Settings</a></li></ul></li><li class='Nav__item '><a href="../Troubleshooting/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Troubleshooting</a><ul class='Nav'></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/other-resources/" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                            <a href="https://github.com/UDOOboard/Bolt-Docs" target="_blank">Github Docs</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Pinout</h1>
+            </div>
+
+
+    <div class="s-content">
+        <p>The embedded Arduino Leonardo-compatible input/output (I/O) pins operates at <strong>5V</strong>, with a maximum <strong>40 mA</strong> DC current per pin. They are located on the top of the board on a dual row dedicated female header(CN24).</p>
+<p><a href="../img/bolt_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/bolt_pinout_arduino.png"></a>_</p>
+<p>Make sure to check this image to know where are the corresponding Pins</p>
+<h2 id="page_Technical-specs">Technical specs</h2>
+<p>From the Arduino Leonardo page:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Microcontroller</td>
+<td>ATmega32u4</td>
+</tr>
+<tr>
+<td>Operating Voltage</td>
+<td>5V</td>
+</tr>
+<tr>
+<td>Digital I/O Pins</td>
+<td>20</td>
+</tr>
+<tr>
+<td>PWM Channels</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Analog Input Channels</td>
+<td>12</td>
+</tr>
+<tr>
+<td>DC Current per I/O Pin</td>
+<td>40 mA</td>
+</tr>
+<tr>
+<td>DC Current for 3.3V Pin</td>
+<td>50 mA</td>
+</tr>
+<tr>
+<td>Flash Memory</td>
+<td>32 KB (ATmega32u4) of which 4 KB used by bootloader</td>
+</tr>
+<tr>
+<td>SRAM</td>
+<td>2.5 KB (ATmega32u4)</td>
+</tr>
+<tr>
+<td>EEPROM</td>
+<td>1 KB (ATmega32u4)</td>
+</tr>
+<tr>
+<td>Clock Speed</td>
+<td>16 MHz</td>
+</tr>
+</tbody>
+</table>
+<p>Each of the 20 digital i/o pins on the Leonardo can be used as an input or output, using pinMode(), digitalWrite(), and digitalRead() functions. They operate at 5 volts. Each pin can provide or receive a maximum of 40 mA and has an internal pull-up resistor (disconnected by default) of 20-50 kOhms.
+There are six analog input pins at 10-bit resolution, providing a range of 1024 values between ground and 3.3 V. The number of inputs and resolution can be increased if required, by using an external ADC module.</p>
+<p>The Leonardo has 12 analog inputs, labeled A0 through A11, and all can also be used as digital i/o. Pins A0-A5 appear in the same locations as on the Uno; inputs A6-A11 are on digital i/o pins 4, 6, 8, 9, 10, and 12 respectively. Each analog input provides 10 bits of resolution (i.e. 1024 different values). By default the analog inputs measure from ground to 5 volts, though it’s possible to change the upper end of their range using the AREF pin and the <a href="https://www.arduino.cc/en/Reference/AnalogReference" class="Link--external">analogReference()</a> function.</p>
+<p>There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off</p>
+<p>Analog output is simulated using pulse width modulation (PWM) on digital pins 3, 5, 6, 8, 10, 11 and 13. For an explanation of PWM, refer to the following <a href="https://www.arduino.cc/en/Tutorial/PWM" class="Link--external">Arduino tutorial</a></p>
+<p>The pins 3 (interrupt 0), 2 (interrupt 1), 0 (interrupt 2), 1 (interrupt 3) and 7 (interrupt 4) can be configured to trigger an interrupt on a low value, a rising or falling edge, or a change in value. See the <a href="https://www.arduino.cc/en/Reference/AttachInterrupt" class="Link--external">attachInterrupt()</a> function for details.</p>
+<h2 id="page_Grove-connectors">Grove connectors</h2>
+<p>The UDOO BOLT features 3 Grove connectors to use Sensors and actuators from the <a href="http://wiki.seeedstudio.com/Grove_System/" class="Link--external">Grove System</a> by Seeed.
+The 3 Grove connectors are directly connected to the same pins of the external pinout.</p>
+<table>
+<thead>
+<tr>
+<th>Grove Connector</th>
+<th>Conn. ID</th>
+<th>Signal Pins</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grove Analog</td>
+<td>CN26</td>
+<td>A0 - A1</td>
+</tr>
+<tr>
+<td>Grove UART</td>
+<td>CN27</td>
+<td>Rx/D0 - Tx/D1</td>
+</tr>
+<tr>
+<td>Grove I2C</td>
+<td>CN28</td>
+<td>SCL/D3 - SDA/D2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="page_Arduino-Shields-compatibility">Arduino® Shields compatibility</h2>
+<p>This is the first time that a UDOO board doesn't present the standard Arduino® Pinout, however, an esternal accessory is in design to let you use the <strong>UDOO BOLT I/O Expansion Board</strong> to have the standard Arduino® Pinout and use the all the Arduino® shields you want.</p>
+<img src="../img/bolt_io_expansion_board.png" alt="UDOO I/O Expansion Board" class="img-responsive" >
+<p>The UDOO BOLT I/O Expansion Board will features a full Arduino® Leonardo Pinout including ICSP connector, RX and TX LEDs as well as the Reset Button, with the addition of an I2C Brick connector compatible with the Snap-in <a href="https://www.udoo.org/udoo-bricks/" class="Link--external">UDOO Bricks</a>, i.e. the flexible sensors by UDOO which also are pluggable in a cascade configuration.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../Arduino_Leonardo_compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html">Previous</a></li>            <li class=Pager--next><a href="../BIOS_UEFI_and_Tools/BIOS_UEFI_Firmware.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, March 21, 2022 at 5:25 AM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+            <!-- Tipue Search -->
+        <script type="text/javascript" src="../tipuesearch/tipuesearch.js"></script>
+
+        <script>
+            window.onunload = function(){}; // force $(document).ready to be called on back/forward navigation in firefox
+            $(function() {
+                tipuesearch({
+                    'base_url': '../'
+                });
+            });
+        </script>
+    
+</body>
+</html>

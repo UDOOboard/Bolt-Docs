@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Pinout Headers - UDOO BOLT Docs</title>
+    <meta name="description" content="UDOO BOLT Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-udoo.ico" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+            <!-- Tipue Search -->
+        <link href="../tipuesearch/tipuesearch.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="../img/logo_docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO BOLT Documentation</a>
+
+    <div class="Search">
+        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451"><path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/></svg>
+        <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on" results=25 autosave=text_search>
+    </div>
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware References</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_References/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Hardware_References/Resources.html">Resources</a></li><li class='Nav__item '><a href="../Hardware_References/Board_versions.html">Board versions</a></li><li class='Nav__item '><a href="../Hardware_References/Memory_Installation.html">Memory Installation</a></li><li class='Nav__item '><a href="../Hardware_References/Video_Output.html">Video Output</a></li><li class='Nav__item '><a href="../Hardware_References/Storage_Options.html">Storage Options</a></li><li class='Nav__item '><a href="../Hardware_References/M.2_Connectors.html">M.2 Connectors</a></li><li class='Nav__item Nav__item--active'><a href="../Hardware_References/Pinout_Headers.html">Pinout Headers</a></li><li class='Nav__item '><a href="../Hardware_References/Power_Sources.html">Power Sources</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Accessories</a><ul class='Nav'><li class='Nav__item '><a href="../Accessories/Official_Accessories.html">Official Accessories</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Operating Systems</a><ul class='Nav'><li class='Nav__item  has-children'><a href="../Operating_Systems/Linux/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Linux</a><ul class='Nav'><li class='Nav__item '><a href="../Operating_Systems/Linux/Known_issues.html">Known issues</a></li><li class='Nav__item '><a href="../Operating_Systems/Linux/Drivers.html">Drivers</a></li></ul></li><li class='Nav__item '><a href="../Operating_Systems/Windows.html">Windows</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Arduino Leonardo-compatible(ATmega32U4)</a><ul class='Nav'><li class='Nav__item '><a href="../Arduino_Leonardo_compatible(ATmega32U4)/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Arduino_Leonardo_compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html">Getting Started with Arduino Leonardo</a></li><li class='Nav__item '><a href="../Arduino_Leonardo_compatible(ATmega32U4)/Pinout.html">Pinout</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>BIOS-UEFI and Tools</a><ul class='Nav'><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/BIOS_UEFI_Firmware.html">BIOS-UEFI Firmware</a></li><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/BIOS_UEFI_Update.html">BIOS-UEFI Update</a></li><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/EAPI.html">EAPI</a></li><li class='Nav__item '><a href="../BIOS_UEFI_and_Tools/Fan_Settings.html">Fan Settings</a></li></ul></li><li class='Nav__item '><a href="../Troubleshooting/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Troubleshooting</a><ul class='Nav'></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/other-resources/" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                            <a href="https://github.com/UDOOboard/Bolt-Docs" target="_blank">Github Docs</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Pinout Headers</h1>
+            </div>
+
+
+    <div class="s-content">
+        <p><strong>UDOO BOLT</strong> features two pinout headers (dual-row 40 Pins), one on the top(CN24) and another on the bottom(CN25) of the board.</p>
+<ul>
+<li>
+<strong>CN24</strong> - <em>Top</em>: The pin header connector on the top of the board is connected to the <strong>ATmega32U4</strong> microcontroller (<strong>Arduino® Leonardo-compatible</strong>). Check the <a href="../Arduino_Leonardo_compatible(ATmega32U4)/Pinout.html">Arduino Leonardo-compatible(ATmega32U4) Pinout</a> section to know how to use it through the Arduino® programming.</li>
+<li>
+<strong>CN25</strong> - <em>Bottom</em>: The pin header connector on the bottom of the board is connected to the <strong>Embedded Controller(MEC1705)</strong>. The EC is used to manage some functionalities of the board like the fan management, the wake up of the Ryzen™ processor and others. The EC also manages the exposed buses in the CN25 pinout header like UART, I2C, etc. and these are usable from the main AMD Ryzen™ processor.</li>
+</ul>
+<p><a href="../img/bolt_pinout_complete.png" target="_blank"><img style="width:600px; " src="../img/bolt_pinout_complete.png"></a>_</p>
+<p>Since the Arduino Pinout connector (<em>CN24</em>) is fully described in the <a href="../Arduino_Leonardo_compatible(ATmega32U4)/Pinout.html">dedicated section</a>, we describe only the pinout header of the EC (<em>CN25</em>) in this page.
+<br/>
+<br/>
+<br/></p>
+<h2 id="page_Embedded-Controller-I-O-Pin-header-CN25">Embedded Controller I/O Pin header - CN25</h2>
+<p>The <strong>Embedded Controller</strong> input/output (I/O) pins operate at <strong>3.3V</strong>.</p>
+<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
+⚠️ <strong>Warning</strong>: UDOO BOLT Pins controlled by the Embedded Controller are 3.3V compliant. Providing higher voltages, like 5V or 12V, could irreversibly damage the board.  
+In order to properly work with an input voltage different from 3.3V you can use a bidirectional level shifter.
+</p>
+<h3 id="page_Pinmuxing">Pinmuxing</h3>
+<p>The image below shows the list of all possible functions assigned to each Pin.</p>
+<p><a href="../img/bolt_pinout_ec.png" target="_blank"><img style="width:600px; " src="../img/bolt_pinout_ec.png"></a>_</p>
+<br/>
+Here you can find the Embedded Controller [Microchip MEC1705 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MEC170x-Data-Sheet-DS00002206D.pdf).
+<h3 id="page_UART-0-and-UART-1">UART 0 and UART 1</h3>
+<p><a href="https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter" class="Link--external">Universal Asynchronous Receiver/Transmitter</a> (<strong>UART</strong>) provides serial communication capability with external devices.</p>
+<p>The <strong>UART 0</strong> is available at Pins <em>34</em>, <em>36</em>, <em>38</em>, <em>40</em>.<br />
+The <strong>UART 1</strong> is available at Pins <em>33</em>, <em>35</em>, <em>37</em>, <em>39</em>.</p>
+<p><strong>UART 0</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>34</td>
+<td>UART0_RX</td>
+<td>UART0_RX</td>
+</tr>
+<tr>
+<td>36</td>
+<td>UART0_TX</td>
+<td>UART0_TX</td>
+</tr>
+<tr>
+<td>38</td>
+<td>UART0_RTS</td>
+<td>UART0_RTS#</td>
+</tr>
+<tr>
+<td>40</td>
+<td>UART0_CTS</td>
+<td>UART0_CTS#</td>
+</tr>
+</tbody>
+</table>
+<p><strong>UART 1</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>33</td>
+<td>UART1_RX</td>
+<td>UART1_RX</td>
+</tr>
+<tr>
+<td>35</td>
+<td>UART1_TX</td>
+<td>UART1_TX</td>
+</tr>
+<tr>
+<td>37</td>
+<td>UART1_RTS</td>
+<td>UART1_RTS#</td>
+</tr>
+<tr>
+<td>39</td>
+<td>UART1_CTS</td>
+<td>UART1_CTS#</td>
+</tr>
+</tbody>
+</table>
+<p>Accordingly to the <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MEC170x-Data-Sheet-DS00002206D.pdf" class="Link--external">Microchip MEC1705 datasheet</a> these are full-function Serial Port that supports the standard RS-232 Interface. The <strong>baud rate</strong> goes from <strong>50</strong> to <strong>3000000</strong>.</p>
+<p>The UARTs are directly propagated to the OS as <em>Legacy UART</em> so you can already interact with they.</p>
+<h4 id="page_UARTs-on-Linux">UARTs on Linux</h4>
+<p>On Linux the UARTs are seen as standard <em>tty</em> devices. The addresses are set by default to <em>0x3f8</em> and <em>0x2f8</em>.</p>
+<p>You should find the UARTs available on the devices <code>/dev/ttyS0</code> and <code>/dev/ttyS1</code> on Ubuntu with a baudrate of <strong>115200</strong>.<br />
+The device name assigned by the Linux Distro you are using can change, you can check the name assigned  running the command:</p>
+<pre><code>dmesg | grep tty
+</code></pre>
+<h4 id="page_UARTs-on-Windows-10">UARTs on Windows 10</h4>
+<p>On Windows the UARTs are seen as standard <em>COM</em> devices. The addresses are set by default to <em>0x3f8</em> and <em>0x2f8</em>.</p>
+<p>You should find the UARTs available on the devices <code>COM1</code> and <code>COM2</code> on Windows 10.</p>
+<h2 id="page_I2C-1-and-I2C-2">I2C 1 and I2C 2</h2>
+<p>The <a href="https://en.wikipedia.org/wiki/I%C2%B2C" class="Link--external">I2C</a> (Inter-IC) bus is a bi-directional, two-wire serial bus that provides a communication link between integrated circuits (ICs). Phillips introduced the I2C bus 20 years ago for mass-produced items such as televisions, VCRs, and audio equipment. Today, I2C is the de-facto solution for embedded applications.</p>
+<p>The <strong>I2C 1</strong> is available at Pins <em>8</em>, <em>10</em>.<br />
+The <strong>I2C 2</strong> is available at Pins <em>7</em>, <em>9</em>.</p>
+<p><strong>I2C 1</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8</td>
+<td>I2C1_SCL</td>
+<td>I2C08_SCL</td>
+</tr>
+<tr>
+<td>10</td>
+<td>I2C1_SDA</td>
+<td>I2C08_SDA</td>
+</tr>
+</tbody>
+</table>
+<p><strong>I2C 2</strong></p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>I2C2_SCL</td>
+<td>I2C09_SCL</td>
+</tr>
+<tr>
+<td>9</td>
+<td>I2C2_SDA</td>
+<td>I2C09_SCL</td>
+</tr>
+</tbody>
+</table>
+<p>Check the <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/MEC170x-Data-Sheet-DS00002206D.pdf" class="Link--external">Microchip MEC1705 datasheet</a> for more info about the I2C interface.</p>
+<p>You can use the I2C exposed by the EC using the <a href="../BIOS_UEFI_and_Tools/EAPI.html">EAPI libraries</a> in your software.</p>
+<h2 id="page_SPI">SPI</h2>
+<p>The <a href="https://en.wikipedia.org/wiki/Serial_Peripheral_Interface" class="Link--external">Serial Peripheral Interface (SPI)</a> is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems.<br />
+The SPI may be accurately described as a synchronous serial interface, but it is different from the Synchronous Serial Interface (SSI) protocol, which is also a four-wire synchronous serial communication protocol.</p>
+<p>The <strong>SPI</strong> is available at Pins <em>1</em>, <em>2</em>, <em>3</em>, <em>4</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SPI_MISO</td>
+<td>SPI0_MISO</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SPI_CS#</td>
+<td>SPI0_CS#</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SPI_MOSI</td>
+<td>SPI0_MOSI</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SPI_CLK</td>
+<td>SPI0_CLK</td>
+</tr>
+</tbody>
+</table>
+<p>You can use the SPI exposed by the EC using the <a href="../BIOS_UEFI_and_Tools/EAPI.html">EAPI libraries</a> in your software.</p>
+<h2 id="page_Fan-Controller">Fan Controller</h2>
+<p>You can control an external Fan using the Fan Controller Pins.</p>
+<p>The <strong>Fan controller</strong> is available at Pins <strong>11</strong>, <strong>12</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>FANOUT0</td>
+<td>PWM0</td>
+</tr>
+<tr>
+<td>12</td>
+<td>FANTACH0</td>
+<td>FAN_TACH0</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Fan Out</strong> is used as a PWM output to control the Fan Speed.
+The <strong>Fan Tachometer</strong> is used as in Input to capture the Fan Speed.<br />
+Remember you also need to provide the Voltage and Ground Pins to the external Fan.</p>
+<p>These two signals (out and tachometer) are <em>only 3.3V</em> digital pins exposed by the controller and therefore do not deliver power.<br />
+To drive a <strong>3-pin</strong> fan you need a power circuit that gives the right voltage to the fan. For example, this is the circuit used to drive the 5V fan installed above the heatsink:</p>
+<img src="../img/bolt_fan_circuit.jpg" alt="fan circuit" class="img-responsive" >
+<p>You can control these Fan Pins using the <a href="../BIOS_UEFI_and_Tools/EAPI.html">EAPI libraries</a> in your software.</p>
+<h2 id="page_Wake-Pins">Wake Pins</h2>
+<p>The Wake pin can be used as an interrupt, the signal is caught by the EC and propagated to wake up the main AMD Ryzen™ processor from S3/S4/S5 status (Suspend/Hibernate/Power Off).</p>
+<p>The <strong>Wake</strong> is available at Pin <strong>6</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6</td>
+<td>WAKE#</td>
+<td>GPIO025</td>
+</tr>
+</tbody>
+</table>
+<p>The wake signal is activated by a logical state change on the Pin (e.g. active low from 3.3V to GND).</p>
+<h2 id="page_Keyboard-Scan">Keyboard Scan</h2>
+<p>The Keyboard Scan Interface block provides a register interface to the EC to directly scan an external keyboard matrix of size up to 11x5.</p>
+<ul>
+<li>KS Input [4:0] : Column inputs from external keyboard matrix.</li>
+<li>KS Output[10:0]: Row outputs to external keyboard matrix.</li>
+</ul>
+<p>The <strong>Keyboard Scan</strong> is available at Pins from <strong>13</strong> to <strong>28</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Function</th>
+<th>EC PAD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13</td>
+<td>KSO0</td>
+<td>KSO00</td>
+</tr>
+<tr>
+<td>14</td>
+<td>KSI0</td>
+<td>KSI0</td>
+</tr>
+<tr>
+<td>15</td>
+<td>KSO1</td>
+<td>KSO01</td>
+</tr>
+<tr>
+<td>16</td>
+<td>KSI1</td>
+<td>KSI1</td>
+</tr>
+<tr>
+<td>17</td>
+<td>KSO2</td>
+<td>KSO02</td>
+</tr>
+<tr>
+<td>18</td>
+<td>KSI2</td>
+<td>KSI2</td>
+</tr>
+<tr>
+<td>19</td>
+<td>KSO3</td>
+<td>KSO03</td>
+</tr>
+<tr>
+<td>20</td>
+<td>KSI3</td>
+<td>KSI3</td>
+</tr>
+<tr>
+<td>21</td>
+<td>KSO4</td>
+<td>KSO04</td>
+</tr>
+<tr>
+<td>22</td>
+<td>KSI4</td>
+<td>KSI4</td>
+</tr>
+<tr>
+<td>23</td>
+<td>KSO8</td>
+<td>KSO08</td>
+</tr>
+<tr>
+<td>24</td>
+<td>KS11</td>
+<td>KSO11</td>
+</tr>
+<tr>
+<td>25</td>
+<td>KSO9</td>
+<td>KSO09</td>
+</tr>
+<tr>
+<td>26</td>
+<td>KSO12</td>
+<td>KSO12</td>
+</tr>
+<tr>
+<td>27</td>
+<td>KSO10</td>
+<td>KSO10</td>
+</tr>
+<tr>
+<td>28</td>
+<td>KSO13</td>
+<td>KSO13</td>
+</tr>
+</tbody>
+</table>
+<p>You can use these Pins as GPIO exposed by the EC using the <a href="../BIOS_UEFI_and_Tools/EAPI.html">EAPI libraries</a> in your software.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../Hardware_References/M.2_Connectors.html">Previous</a></li>            <li class=Pager--next><a href="../Hardware_References/Power_Sources.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, March 21, 2022 at 5:25 AM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+            <!-- Tipue Search -->
+        <script type="text/javascript" src="../tipuesearch/tipuesearch.js"></script>
+
+        <script>
+            window.onunload = function(){}; // force $(document).ready to be called on back/forward navigation in firefox
+            $(function() {
+                tipuesearch({
+                    'base_url': '../'
+                });
+            });
+        </script>
+    
+</body>
+</html>
