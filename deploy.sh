@@ -10,7 +10,7 @@ cd static
 git init
 
 # inside this git repo we'll pretend to be a new user
-git config user.name "Travis CI"
+git config user.name "GH_Actions"
 git config user.email "social@udoo.org"
 
 # Add drivers and tools
